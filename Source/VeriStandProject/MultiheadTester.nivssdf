@@ -1,0 +1,4077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2015" Minor="0" Fix="0" Build="3" />
+	<Content>Definition</Content>
+	<Root Name="MultiheadTester" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+		<Description />
+		<Properties>
+			<Property Name="Name">
+				<String>MultiheadTester</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0.91</String>
+			</Property>
+			<Property Name="Creator">
+				<String />
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3526309249.6536603</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<TargetSections Name="Targets" TypeGUID="eb379619-68d7-4d81-be90-c0bc511cdc10">
+			<Description />
+			<Properties />
+			<Errors />
+			<Target Name="Controller" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+				<Description />
+				<Properties>
+					<Property Name="OS">
+						<String>Windows</String>
+					</Property>
+					<Property Name="IP Address">
+						<String>localhost</String>
+					</Property>
+					<Property Name="Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Secondary Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Stream Rate">
+						<I32>1</I32>
+					</Property>
+					<Property Name="DIO Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="Streamed Channels">
+						<I32>512</I32>
+					</Property>
+					<Property Name="Filter DAQ Errors">
+						<Boolean>true</Boolean>
+					</Property>
+					<Property Name="Filter Watchdog Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Engine Rate">
+						<Double>1000</Double>
+					</Property>
+					<Property Name="TL timeout">
+						<Double>120</Double>
+					</Property>
+					<Property Name="daq timeout">
+						<U32>1000</U32>
+					</Property>
+					<Property Name="TL sleep time">
+						<U32>0</U32>
+					</Property>
+					<Property Name="HS Port">
+						<I32>2040</I32>
+					</Property>
+					<Property Name="LS Port">
+						<I32>2050</I32>
+					</Property>
+					<Property Name="HS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="LS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="Deployment Group">
+						<I32>0</I32>
+					</Property>
+					<Property Name="Control Rate">
+						<Double>1</Double>
+					</Property>
+					<Property Name="Input Configuration">
+						<U32>0</U32>
+					</Property>
+					<Property Name="ts">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Warmup Time [ms]">
+						<U32>2000</U32>
+					</Property>
+					<Property Name="Data Rate">
+						<Double>15</Double>
+					</Property>
+					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
+						<U16>0</U16>
+					</Property>
+				</Properties>
+				<Errors />
+				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Chassis" TypeGUID="03D3BACD-1485-13A6-56E99D97B7543BAF">
+						<Description />
+						<Properties>
+							<Property Name="Master type">
+								<U32>0</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Timing and Sync" TypeGUID="03D3BAED-1485-13A6-56E20B50F6E06D94">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="DAQ" TypeGUID="77550612-1485-13A6-56570AB5032158E9">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Tasks" TypeGUID="1D6B8779-A957-42D1-B074-82153DB7FF44">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="Dev1" TypeGUID="77550632-1485-13A6-562E22989AF1271F">
+								<Description />
+								<Properties>
+									<Property Name="HWTSP AI">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="Port Width">
+										<U16>8</U16>
+									</Property>
+									<Property Name="HWTSP AO">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="Product ID">
+										<U64>28873</U64>
+									</Property>
+									<Property Name="Product Name">
+										<String>PXI-6515</String>
+									</Property>
+									<Property Name="Product Category">
+										<I32>0</I32>
+									</Property>
+									<Property Name="Input Configuration">
+										<I32>-1</I32>
+									</Property>
+									<Property Name="HDW Serial">
+										<String>013DF8C0</String>
+									</Property>
+									<Property Name="HDW Product ID">
+										<String>28873</String>
+									</Property>
+									<Property Name="HDW Model">
+										<String>NI PXI-6515</String>
+									</Property>
+									<Property Name="HDW Plugin">
+										<String>DAQ</String>
+									</Property>
+									<Property Name="HDW Slot Number">
+										<I32>2</I32>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Digital Input" TypeGUID="7755069F-1485-13A6-5611FCCCE7E29CCD">
+									<Description />
+									<Properties />
+									<Errors />
+									<Section Name="port1" TypeGUID="7755071C-1485-13A6-563FB4C0B9899C30">
+										<Description />
+										<Properties>
+											<Property Name="Inverted?">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Channel Name="Station_1_di_Drive_Fault" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="Bool" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>0</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_2_di_Drive_Fault" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>1</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_3_di_Drive_Fault" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>2</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="DI3" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>3</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="DI4" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>4</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="DI5" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>5</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="DI6" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>6</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="DI7" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>7</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>1</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="Digital Output" TypeGUID="775506AF-1485-13A6-56FF70AF05590A56">
+									<Description />
+									<Properties />
+									<Errors />
+									<Section Name="port5" TypeGUID="7755071C-1485-13A6-563FB4C0B9899C30">
+										<Description />
+										<Properties>
+											<Property Name="Inverted?">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Channel Name="Station_1_do_Heater_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="Bool" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>0</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_1_do_Drive_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="Bool" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>1</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_1_do_Drive_Enable" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="Bool" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>2</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_2_do_Heater_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>3</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_2_do_Drive_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>4</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_2_do_Drive_Enable" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>5</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_3_do_Heater_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>6</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Station_3_do_Drive_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>7</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>5</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Section Name="port6" TypeGUID="7755071C-1485-13A6-563FB4C0B9899C30">
+										<Description />
+										<Properties>
+											<Property Name="Inverted?">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Channel Name="Station_3_do_Drive_Enable" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
+											<Description />
+											<Properties>
+												<Property Name="Is SCXI?">
+													<Boolean>false</Boolean>
+												</Property>
+												<Property Name="Plugin GUID">
+													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
+												</Property>
+												<Property Name="Invert?">
+													<I32>-1</I32>
+												</Property>
+												<Property Name="Bit">
+													<U32>0</U32>
+												</Property>
+												<Property Name="Port#">
+													<U32>6</U32>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+							</Section>
+							<Section Name="Dev2" TypeGUID="77550632-1485-13A6-562E22989AF1271F">
+								<Description />
+								<Properties>
+									<Property Name="HWTSP AI">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="Port Width">
+										<U16>8</U16>
+									</Property>
+									<Property Name="HWTSP AO">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="Product ID">
+										<U64>29037</U64>
+									</Property>
+									<Property Name="Product Name">
+										<String>PXI-6225</String>
+									</Property>
+									<Property Name="Product Category">
+										<I32>0</I32>
+									</Property>
+									<Property Name="Input Configuration">
+										<I32>10106</I32>
+									</Property>
+									<Property Name="HDW Serial">
+										<String>0129092C</String>
+									</Property>
+									<Property Name="HDW Product ID">
+										<String>29037</String>
+									</Property>
+									<Property Name="HDW Model">
+										<String>NI PXI-6225</String>
+									</Property>
+									<Property Name="HDW Plugin">
+										<String>DAQ</String>
+									</Property>
+									<Property Name="HDW Slot Number">
+										<I32>3</I32>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Analog Input" TypeGUID="77550680-1485-13A6-56222BCBF3D67F67">
+									<Description />
+									<Properties>
+										<Property Name="Sample Mode">
+											<I32>0</I32>
+										</Property>
+										<Property Name="SlowBackgroundConvert">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="SlowBackgroundConvert.Rate">
+											<Double>-1</Double>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Station_1_ci_Heater_Temperature" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Input Configuration">
+												<I32>10083</I32>
+											</Property>
+											<Property Name="Digital Filter Type">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Digital Filter Cutoff - Enum">
+												<I32>1000</I32>
+											</Property>
+											<Property Name="Analog Filter Cutoff - Enum">
+												<I32>0</I32>
+											</Property>
+											<Property Name="!In-Situ Calibration">
+												<I32>3</I32>
+											</Property>
+											<Property Name="!In-Situ Minimum Value">
+												<Double>-5</Double>
+											</Property>
+											<Property Name="!In-Situ Maximum Value">
+												<Double>5</Double>
+											</Property>
+											<Property Name="!In-Situ Input Configuration">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Channel">
+												<String>0</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Temperature" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_1_si_Position_Feedback" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Input Configuration">
+												<I32>10106</I32>
+											</Property>
+											<Property Name="Digital Filter Type">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Digital Filter Cutoff - Enum">
+												<I32>1000</I32>
+											</Property>
+											<Property Name="Analog Filter Cutoff - Enum">
+												<I32>0</I32>
+											</Property>
+											<Property Name="!In-Situ Calibration">
+												<I32>3</I32>
+											</Property>
+											<Property Name="!In-Situ Minimum Value">
+												<Double>-5</Double>
+											</Property>
+											<Property Name="!In-Situ Maximum Value">
+												<Double>5</Double>
+											</Property>
+											<Property Name="!In-Situ Input Configuration">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Channel">
+												<String>1</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Position_Feedback" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_2_ci_Heater_Temperature" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Input Configuration">
+												<I32>10083</I32>
+											</Property>
+											<Property Name="Digital Filter Type">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Digital Filter Cutoff - Enum">
+												<I32>1000</I32>
+											</Property>
+											<Property Name="Analog Filter Cutoff - Enum">
+												<I32>0</I32>
+											</Property>
+											<Property Name="!In-Situ Calibration">
+												<I32>3</I32>
+											</Property>
+											<Property Name="!In-Situ Minimum Value">
+												<Double>-5</Double>
+											</Property>
+											<Property Name="!In-Situ Maximum Value">
+												<Double>5</Double>
+											</Property>
+											<Property Name="!In-Situ Input Configuration">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Channel">
+												<String>2</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_2_si_Position_Feedback" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Input Configuration">
+												<I32>10106</I32>
+											</Property>
+											<Property Name="Digital Filter Type">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Digital Filter Cutoff - Enum">
+												<I32>1000</I32>
+											</Property>
+											<Property Name="Analog Filter Cutoff - Enum">
+												<I32>0</I32>
+											</Property>
+											<Property Name="!In-Situ Calibration">
+												<I32>3</I32>
+											</Property>
+											<Property Name="!In-Situ Minimum Value">
+												<Double>-5</Double>
+											</Property>
+											<Property Name="!In-Situ Maximum Value">
+												<Double>5</Double>
+											</Property>
+											<Property Name="!In-Situ Input Configuration">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Channel">
+												<String>3</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Position_Feedback" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_3_ci_Heater_Temperature" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Input Configuration">
+												<I32>10083</I32>
+											</Property>
+											<Property Name="Digital Filter Type">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Digital Filter Cutoff - Enum">
+												<I32>1000</I32>
+											</Property>
+											<Property Name="Analog Filter Cutoff - Enum">
+												<I32>0</I32>
+											</Property>
+											<Property Name="!In-Situ Calibration">
+												<I32>3</I32>
+											</Property>
+											<Property Name="!In-Situ Minimum Value">
+												<Double>-5</Double>
+											</Property>
+											<Property Name="!In-Situ Maximum Value">
+												<Double>5</Double>
+											</Property>
+											<Property Name="!In-Situ Input Configuration">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Channel">
+												<String>4</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_3_si_Position_Feedback" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Input Configuration">
+												<I32>10106</I32>
+											</Property>
+											<Property Name="Digital Filter Type">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Digital Filter Cutoff - Enum">
+												<I32>1000</I32>
+											</Property>
+											<Property Name="Analog Filter Cutoff - Enum">
+												<I32>0</I32>
+											</Property>
+											<Property Name="!In-Situ Calibration">
+												<I32>3</I32>
+											</Property>
+											<Property Name="!In-Situ Minimum Value">
+												<Double>-5</Double>
+											</Property>
+											<Property Name="!In-Situ Maximum Value">
+												<Double>5</Double>
+											</Property>
+											<Property Name="!In-Situ Input Configuration">
+												<I32>0</I32>
+											</Property>
+											<Property Name="Channel">
+												<String>5</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Position_Feedback" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Analog Output" TypeGUID="7755068F-1485-13A6-56B6F9724C6B7E7F">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Station_2_co_Position_Setpoint" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="V" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>76464909-DD37-43bb-853D-5B30FEC680A6</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Channel">
+												<String>1</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Position_Setpoint" />
+											</Property>
+											<Property Name="DataSource">
+												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/Station_2_RateLimiter/Outports/output" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_1_co_Position_Setpoint" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="V" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>76464909-DD37-43bb-853D-5B30FEC680A6</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Channel">
+												<String>0</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Position_Setpoint" />
+											</Property>
+											<Property Name="DataSource">
+												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/Station_1_RateLimiter/Outports/output" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="Dev3" TypeGUID="77550632-1485-13A6-562E22989AF1271F">
+								<Description />
+								<Properties>
+									<Property Name="HWTSP AI">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="Port Width">
+										<U16>8</U16>
+									</Property>
+									<Property Name="HWTSP AO">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="Product ID">
+										<U64>6432</U64>
+									</Property>
+									<Property Name="Product Name">
+										<String>PXI-6704</String>
+									</Property>
+									<Property Name="Product Category">
+										<I32>0</I32>
+									</Property>
+									<Property Name="Input Configuration">
+										<I32>10106</I32>
+									</Property>
+									<Property Name="HDW Serial">
+										<String>013DD1AF</String>
+									</Property>
+									<Property Name="HDW Product ID">
+										<String>6432</String>
+									</Property>
+									<Property Name="HDW Model">
+										<String>NI PXI-6704</String>
+									</Property>
+									<Property Name="HDW Plugin">
+										<String>DAQ</String>
+									</Property>
+									<Property Name="HDW Slot Number">
+										<I32>4</I32>
+									</Property>
+									<Property Name="PXIBackplaneReferenceClock">
+										<I32>0</I32>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Analog Output" TypeGUID="7755068F-1485-13A6-56B6F9724C6B7E7F">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Station_1_co_Heater_Control" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="A" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>480637E7-B0FD-4775-A078-2788CAC5B6AE</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>0</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>0.02</Double>
+											</Property>
+											<Property Name="Channel">
+												<String>16</String>
+											</Property>
+											<Property Name="DataSource">
+												<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Output" />
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/mA to Perc" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_3_co_Position_Setpoint" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="V" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>76464909-DD37-43bb-853D-5B30FEC680A6</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>-10</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>10</Double>
+											</Property>
+											<Property Name="Channel">
+												<String>0</String>
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/Position_Setpoint" />
+											</Property>
+											<Property Name="DataSource">
+												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/Station_3_RateLimiter/Outports/output" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_2_co_Heater_Control" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="A" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>480637E7-B0FD-4775-A078-2788CAC5B6AE</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>0</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>0.02</Double>
+											</Property>
+											<Property Name="Channel">
+												<String>17</String>
+											</Property>
+											<Property Name="DataSource">
+												<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Output" />
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/mA to Perc" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Station_3_co_Heater_Control" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="A" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="Is SCXI?">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="SCXI Module Type">
+												<String />
+											</Property>
+											<Property Name="Plugin GUID">
+												<String>480637E7-B0FD-4775-A078-2788CAC5B6AE</String>
+											</Property>
+											<Property Name="Low Level">
+												<Double>0</Double>
+											</Property>
+											<Property Name="High Level">
+												<Double>0.02</Double>
+											</Property>
+											<Property Name="Channel">
+												<String>18</String>
+											</Property>
+											<Property Name="DataSource">
+												<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Output" />
+											</Property>
+											<Property Name="Scale Path">
+												<DependentNode Path="Scales/mA to Perc" />
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+						</Section>
+						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="NI-XNET" TypeGUID="6b693e6d-67b1-40b8-8108-4a4cc3147721">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Driver VI Exec Mode">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="FlexRay" TypeGUID="e33fae90-03f1-4f76-b2f1-6eb8fcac2676">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="LIN" TypeGUID="c9c30728-42cb-4dc3-b054-b80e7a54e833">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Data Sharing" TypeGUID="d56f3ac1-7b2c-422c-9d11-fd9cc7abf2a5">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Control Addon" TypeGUID="8dfd0406-1a5d-45dd-a1d7-1d4d9090bfa4">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>2</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Control Addon\c\Control Addon Engine VxWorks.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Control Addon\Control Addon Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Control Addon\c\Control Addon Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Control Addon\Control Addon Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Control Addon\Control Addon Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Control Addon\Control Addon Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Station_1_Temp_Controller" TypeGUID="a4932adc-e764-4f49-9467-a4fe8850f52e">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.SetpointMin">
+									<Double>0</Double>
+								</Property>
+								<Property Name="user.CD.SetpointMax">
+									<Double>300</Double>
+								</Property>
+								<Property Name="user.CD.OutputMin">
+									<Double>0</Double>
+								</Property>
+								<Property Name="user.CD.OutputMax">
+									<Double>100</Double>
+								</Property>
+								<Property Name="user.CD.ExternalSetpoint">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.RateLimiter">
+									<Double>10</Double>
+								</Property>
+								<Property Name="user.CD.FeedbackNode">
+									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_1_ci_Heater_Temperature" />
+								</Property>
+								<Property Name="user.CD.OutputNode">
+									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_1_co_Heater_Control" />
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="PID Parameters" TypeGUID="1cc989ca-4b2f-491b-ac05-844f3fc006dc">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.EnableGainScheduling">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.EnableLiveUpdates">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.PIDArray">
+										<String>1.000,0.010,0.000,100.000
+</String>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Channels" TypeGUID="0e9f6a7a-1f60-42ed-aebc-7ade1398e17a">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="Output" TypeGUID="d712e0d2-113f-4ca0-b313-0b238ae04ab3" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Manual Output" TypeGUID="33e1e162-1383-425c-bdb7-427d30bbaf11" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Manual Control" TypeGUID="3c58b7de-1473-49f6-b484-be00c9625176" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Setpoint" TypeGUID="45cf5b34-ee61-4dc1-a452-b5ea301868c0" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+						<Section Name="Station_2_Temp_Controller" TypeGUID="a4932adc-e764-4f49-9467-a4fe8850f52e">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.SetpointMin">
+									<Double>0</Double>
+								</Property>
+								<Property Name="user.CD.SetpointMax">
+									<Double>400</Double>
+								</Property>
+								<Property Name="user.CD.OutputMin">
+									<Double>0</Double>
+								</Property>
+								<Property Name="user.CD.OutputMax">
+									<Double>100</Double>
+								</Property>
+								<Property Name="user.CD.ExternalSetpoint">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.RateLimiter">
+									<Double>10</Double>
+								</Property>
+								<Property Name="user.CD.FeedbackNode">
+									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_2_ci_Heater_Temperature" />
+								</Property>
+								<Property Name="user.CD.OutputNode">
+									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_2_co_Heater_Control" />
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="PID Parameters" TypeGUID="1cc989ca-4b2f-491b-ac05-844f3fc006dc">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.EnableGainScheduling">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.EnableLiveUpdates">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.PIDArray">
+										<String>1.000,0.010,0.000,100.000
+</String>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Channels" TypeGUID="0e9f6a7a-1f60-42ed-aebc-7ade1398e17a">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="Output" TypeGUID="d712e0d2-113f-4ca0-b313-0b238ae04ab3" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Manual Output" TypeGUID="33e1e162-1383-425c-bdb7-427d30bbaf11" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Manual Control" TypeGUID="3c58b7de-1473-49f6-b484-be00c9625176" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Setpoint" TypeGUID="45cf5b34-ee61-4dc1-a452-b5ea301868c0" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+						<Section Name="Station_3_Temp_Controller" TypeGUID="a4932adc-e764-4f49-9467-a4fe8850f52e">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.SetpointMin">
+									<Double>0</Double>
+								</Property>
+								<Property Name="user.CD.SetpointMax">
+									<Double>400</Double>
+								</Property>
+								<Property Name="user.CD.OutputMin">
+									<Double>0</Double>
+								</Property>
+								<Property Name="user.CD.OutputMax">
+									<Double>100</Double>
+								</Property>
+								<Property Name="user.CD.ExternalSetpoint">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.RateLimiter">
+									<Double>10</Double>
+								</Property>
+								<Property Name="user.CD.OutputNode">
+									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_3_co_Heater_Control" />
+								</Property>
+								<Property Name="user.CD.FeedbackNode">
+									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_3_ci_Heater_Temperature" />
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="PID Parameters" TypeGUID="1cc989ca-4b2f-491b-ac05-844f3fc006dc">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.EnableGainScheduling">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.EnableLiveUpdates">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.PIDArray">
+										<String>1.000,0.010,0.000,100.000
+</String>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Channels" TypeGUID="0e9f6a7a-1f60-42ed-aebc-7ade1398e17a">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="Output" TypeGUID="d712e0d2-113f-4ca0-b313-0b238ae04ab3" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Manual Output" TypeGUID="33e1e162-1383-425c-bdb7-427d30bbaf11" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Manual Control" TypeGUID="3c58b7de-1473-49f6-b484-be00c9625176" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Setpoint" TypeGUID="45cf5b34-ee61-4dc1-a452-b5ea301868c0" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Models" TypeGUID="03D3B976-1485-13A6-5604255F981010CE">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Station_1_RateLimiter" TypeGUID="03D3B9C4-1485-13A6-561FC9BB21813875">
+							<Description />
+							<Properties>
+								<Property Name="Base Rate">
+									<Double>0</Double>
+								</Property>
+								<Property Name="DLL Size">
+									<I32>95232</I32>
+								</Property>
+								<Property Name="DLL Timestamp">
+									<Double>3526490612.6239605</Double>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Import Definition ID">
+									<I32>0</I32>
+								</Property>
+								<Property Name="ID">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Model Timestamp">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Processor">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Show Unnamed Signals">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="User Rate">
+									<Double>0</Double>
+								</Property>
+								<Property Name="visible">
+									<U32>0</U32>
+								</Property>
+								<Property Name="blocks only">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Segment Vectors">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="MD5">
+									<String>1424d36f7b8e94d75a08230a588430ed</String>
+								</Property>
+								<Property Name="NIVeriStandServer Port">
+									<U32>6012</U32>
+								</Property>
+								<Property Name="Model Bitness">
+									<I32>32</I32>
+								</Property>
+								<Property Name="DLL Path">
+									<DependentFile Type="Relative" Path="Models\Rate Limiter.lvmodel">
+										<Version>1.0</Version>
+										<ForceDownload>false</ForceDownload>
+										<RTDestination>C:\ni-rt\NIVeriStand\Models\Rate Limiter.lvmodel</RTDestination>
+										<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+										<MD5>1424d36f7b8e94d75a08230a588430ed</MD5>
+									</DependentFile>
+								</Property>
+								<Property Name="GlobalParameterScopes">
+									<I32>0</I32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Execution" TypeGUID="03D3BA9F-1485-13A6-56E3D5196780015F">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="Model Command" TypeGUID="03D3BABE-1485-13A6-56C34B877844B2C1" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>0: Start
+1: Pause
+2: Reset
+3: Save
+4: Restore</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Model Time" TypeGUID="03D3BAAE-1485-13A6-5606A77AB57A7FC9" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Model Status" TypeGUID="03D3BB6A-1485-13A6-5643A7AFDA3A2658" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>0: Running
+1: Paused
+2: Resetting
+3: Idle
+4: Stopped
+5: Restoring
+6: Saving</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Time Step Duration" TypeGUID="8e7cc8ad-0a9f-4b63-b5f0-59c025358253" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+									<Description>The duration in microseconds of the last model time step.</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Inports" TypeGUID="03D3B9E3-1485-13A6-56035B19B2245EB3">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="output rate (EGU/min)" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>output rate (EGU//min)</String>
+										</Property>
+										<Property Name="Index">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>20000</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="input (controller output)" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>input (controller output)</String>
+										</Property>
+										<Property Name="Index">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Outports" TypeGUID="03D3B9F3-1485-13A6-5698C14838D6AA3C">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="output" TypeGUID="03D3B995-1485-13A6-56ABA0860ADF91DF" RowDim="1" ColDim="1" Units="" BitFields="5">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>output</String>
+										</Property>
+										<Property Name="Index">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Parameters" TypeGUID="03D3BB0C-1485-13A6-56E10CEFF755E7D3">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="Signals" TypeGUID="03D3BA31-1485-13A6-567CA69E9D2E71D5">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Station_3_RateLimiter" TypeGUID="03D3B9C4-1485-13A6-561FC9BB21813875">
+							<Description />
+							<Properties>
+								<Property Name="Base Rate">
+									<Double>0</Double>
+								</Property>
+								<Property Name="DLL Size">
+									<I32>95232</I32>
+								</Property>
+								<Property Name="DLL Timestamp">
+									<Double>3526490612.6239605</Double>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Import Definition ID">
+									<I32>0</I32>
+								</Property>
+								<Property Name="ID">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Model Timestamp">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Processor">
+									<I32>-2</I32>
+								</Property>
+								<Property Name="Show Unnamed Signals">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="User Rate">
+									<Double>0</Double>
+								</Property>
+								<Property Name="visible">
+									<U32>0</U32>
+								</Property>
+								<Property Name="blocks only">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Segment Vectors">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="MD5">
+									<String>1424d36f7b8e94d75a08230a588430ed</String>
+								</Property>
+								<Property Name="NIVeriStandServer Port">
+									<U32>6012</U32>
+								</Property>
+								<Property Name="Model Bitness">
+									<I32>32</I32>
+								</Property>
+								<Property Name="DLL Path">
+									<DependentFile Type="To Common Doc Dir" Path="Projects\Bushing Wear Test System\Models\Rate Limiter.lvmodel">
+										<Version>1.0</Version>
+										<ForceDownload>false</ForceDownload>
+										<RTDestination>C:\ni-rt\NIVeriStand\Models\Rate Limiter.lvmodel</RTDestination>
+										<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+										<MD5>1424d36f7b8e94d75a08230a588430ed</MD5>
+									</DependentFile>
+								</Property>
+								<Property Name="GlobalParameterScopes">
+									<I32>0</I32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Execution" TypeGUID="03D3BA9F-1485-13A6-56E3D5196780015F">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="Model Command" TypeGUID="03D3BABE-1485-13A6-56C34B877844B2C1" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>0: Start
+1: Pause
+2: Reset
+3: Save
+4: Restore</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Model Time" TypeGUID="03D3BAAE-1485-13A6-5606A77AB57A7FC9" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Model Status" TypeGUID="03D3BB6A-1485-13A6-5643A7AFDA3A2658" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>0: Running
+1: Paused
+2: Resetting
+3: Idle
+4: Stopped
+5: Restoring
+6: Saving</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Time Step Duration" TypeGUID="8e7cc8ad-0a9f-4b63-b5f0-59c025358253" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+									<Description>The duration in microseconds of the last model time step.</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Inports" TypeGUID="03D3B9E3-1485-13A6-56035B19B2245EB3">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="output rate (EGU/min)" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>output rate (EGU//min)</String>
+										</Property>
+										<Property Name="Index">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>20000</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="input (controller output)" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>input (controller output)</String>
+										</Property>
+										<Property Name="Index">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Outports" TypeGUID="03D3B9F3-1485-13A6-5698C14838D6AA3C">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="output" TypeGUID="03D3B995-1485-13A6-56ABA0860ADF91DF" RowDim="1" ColDim="1" Units="" BitFields="5">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>output</String>
+										</Property>
+										<Property Name="Index">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Parameters" TypeGUID="03D3BB0C-1485-13A6-56E10CEFF755E7D3">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="Signals" TypeGUID="03D3BA31-1485-13A6-567CA69E9D2E71D5">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Station_2_RateLimiter" TypeGUID="03D3B9C4-1485-13A6-561FC9BB21813875">
+							<Description />
+							<Properties>
+								<Property Name="Base Rate">
+									<Double>0</Double>
+								</Property>
+								<Property Name="DLL Size">
+									<I32>95232</I32>
+								</Property>
+								<Property Name="DLL Timestamp">
+									<Double>3526490612.6239605</Double>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Import Definition ID">
+									<I32>0</I32>
+								</Property>
+								<Property Name="ID">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Model Timestamp">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Processor">
+									<I32>-2</I32>
+								</Property>
+								<Property Name="Show Unnamed Signals">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="User Rate">
+									<Double>0</Double>
+								</Property>
+								<Property Name="visible">
+									<U32>0</U32>
+								</Property>
+								<Property Name="blocks only">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Segment Vectors">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="MD5">
+									<String>1424d36f7b8e94d75a08230a588430ed</String>
+								</Property>
+								<Property Name="NIVeriStandServer Port">
+									<U32>6012</U32>
+								</Property>
+								<Property Name="Model Bitness">
+									<I32>32</I32>
+								</Property>
+								<Property Name="DLL Path">
+									<DependentFile Type="To Common Doc Dir" Path="Projects\Bushing Wear Test System\Models\Rate Limiter.lvmodel">
+										<Version>1.0</Version>
+										<ForceDownload>false</ForceDownload>
+										<RTDestination>C:\ni-rt\NIVeriStand\Models\Rate Limiter.lvmodel</RTDestination>
+										<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+										<MD5>1424d36f7b8e94d75a08230a588430ed</MD5>
+									</DependentFile>
+								</Property>
+								<Property Name="GlobalParameterScopes">
+									<I32>0</I32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Execution" TypeGUID="03D3BA9F-1485-13A6-56E3D5196780015F">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="Model Command" TypeGUID="03D3BABE-1485-13A6-56C34B877844B2C1" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>0: Start
+1: Pause
+2: Reset
+3: Save
+4: Restore</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Model Time" TypeGUID="03D3BAAE-1485-13A6-5606A77AB57A7FC9" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+									<Description />
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Model Status" TypeGUID="03D3BB6A-1485-13A6-5643A7AFDA3A2658" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>0: Running
+1: Paused
+2: Resetting
+3: Idle
+4: Stopped
+5: Restoring
+6: Saving</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Time Step Duration" TypeGUID="8e7cc8ad-0a9f-4b63-b5f0-59c025358253" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+									<Description>The duration in microseconds of the last model time step.</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Inports" TypeGUID="03D3B9E3-1485-13A6-56035B19B2245EB3">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="output rate (EGU/min)" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>output rate (EGU//min)</String>
+										</Property>
+										<Property Name="Index">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>20000</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="input (controller output)" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>input (controller output)</String>
+										</Property>
+										<Property Name="Index">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Outports" TypeGUID="03D3B9F3-1485-13A6-5698C14838D6AA3C">
+								<Description />
+								<Properties />
+								<Errors />
+								<Channel Name="output" TypeGUID="03D3B995-1485-13A6-56ABA0860ADF91DF" RowDim="1" ColDim="1" Units="" BitFields="5">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>output</String>
+										</Property>
+										<Property Name="Index">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Parameters" TypeGUID="03D3BB0C-1485-13A6-56E10CEFF755E7D3">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="Signals" TypeGUID="03D3BA31-1485-13A6-567CA69E9D2E71D5">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+					</Section>
+					<Section Name="Execution Order" TypeGUID="03D3B966-1485-13A6-569CFF8A449BF90A">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="User Channels" TypeGUID="03D3B6B7-1485-13A6-567BE1E1E0DF999A">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Station_1" TypeGUID="7f9b2ef4-f3fc-4448-975a7018fe511e0d">
+						<Description />
+						<Properties />
+						<Errors />
+						<Channel Name="Station_1_Abort" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_Duration" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="s" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_Iteration_Info" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_Step_Info" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+					</Section>
+					<Section Name="Station_2" TypeGUID="7f9b2ef4-f3fc-4448-975a7018fe511e0d">
+						<Description />
+						<Properties />
+						<Errors />
+						<Channel Name="Station_2_Abort" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_Duration" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="s" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_Iteration_Info" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_Step_Info" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+					</Section>
+					<Section Name="Station_3" TypeGUID="7f9b2ef4-f3fc-4448-975a7018fe511e0d">
+						<Description />
+						<Properties />
+						<Errors />
+						<Channel Name="Station_3_Abort" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_Duration" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_Iteration_Info" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_Step_Info" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+					</Section>
+					<Channel Name="Global_Estop" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+						<Description />
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+				<Section Name="Calculated Channels" TypeGUID="03D3B714-1485-13A6-56031C5F1CCB78A9">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Stimulus" TypeGUID="03D3B7FF-1485-13A6-56B2328F9511AC8B">
+					<Description />
+					<Properties>
+						<Property Name="Max Steps">
+							<I32>128</I32>
+						</Property>
+						<Property Name="Max Gen Maps">
+							<I32>256</I32>
+						</Property>
+						<Property Name="Aux Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Result Size">
+							<I32>5000</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Alarms" TypeGUID="03D3B782-1485-13A6-56F58B35B6CBA484">
+					<Description />
+					<Properties>
+						<Property Name="Alarm Rate">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+					<Section Name="Station_3" TypeGUID="76AFF34A-9374-FCEB-1E7E-EE1084A48EF5">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Station_3_Over_Temp" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_3_SoftStop" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_3_ci_Heater_Temperature" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>-40</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_1" TypeGUID="76AFF34A-9374-FCEB-1E7E-EE1084A48EF5">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Station_1_Over_Temp" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_1_SoftStop" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_1_ci_Heater_Temperature" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_1_Abort" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_1_Abort" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_1_Abort" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_2" TypeGUID="76AFF34A-9374-FCEB-1E7E-EE1084A48EF5">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Station_2_Over_Temp" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_2_SoftStop" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_2_ci_Heater_Temperature" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>-40</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Global" TypeGUID="76AFF34A-9374-FCEB-1E7E-EE1084A48EF5">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Station_1_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Manual Output" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_1_do_Drive_Enable" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Settle" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>2</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Relays" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_1_do_Drive_Contactor" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_1_do_Heater_Contactor" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Setpoints" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_1_Position_Setpoint" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_1_Temp_Setpoint" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Dwell" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable PID Controls" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Manual Control" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_2_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Over_Temp" />
+								</Property>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>4</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_3_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Over_Temp" />
+								</Property>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>4</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_1_Abort" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Call Procedure" TypeGUID="78c1304c-b691-4751-853c-67994ac9a904">
+							<Description />
+							<Properties>
+								<Property Name="Procedure">
+									<DependentNode Path="Targets/Controller/Procedures/Station_1_SoftStop" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Abort" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value 1">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Value 2">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<U16>0</U16>
+								</Property>
+								<Property Name="Command.Value 1 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Value 2 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Station_1_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="XNET Databases" TypeGUID="def5630b-577f-4ae9-9682-5f8ee445ee21">
+					<Description />
+					<Properties>
+						<Property Name="CD Status">
+							<U32>2</U32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="System Channels" TypeGUID="03D3B753-1485-13A6-56B10ED0820CF410">
+					<Description />
+					<Properties />
+					<Errors />
+					<Channel Name="Actual Loop Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Hz" BitFields="1">
+						<Description>The execution rate of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Index" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The decimation of the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The relative system time of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Alarm Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="DAQ Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Error Code" BitFields="3">
+						<Description>The last reported error code from a DAQmx function call. The value zero indicates no error has occurred.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Delta T" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The period in seconds of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Compiler Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 1" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 2" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 3" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Resume Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 4" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 5" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 6" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="RT Engine Build" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>A value representing the build number of the NI VeriStand Engine</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Primary Control Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Data Processing Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>Internally commands the RT system with the following numeric values:
+
+0: None
+1: Restart System
+2: Reset System
+3: Shut Down System
+4: Reboot System</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Channel Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of channels that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Max Streamed Channels" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The maximum number of channels that the VeriStand Engine can stream to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Model Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the models have not completed their execution in time</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Clients" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Maximum GENs" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of stimulus profile generators instantiated by the system</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Generator Engine State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>The current state of the stimulus profile generator engine
+
+0: Idle
+1: Running
+2: Stopped
+3: Paused</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Watchdog Timer" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The amount of time in nanoseconds since the Watchdog Timer Loop last executed. The Watchdog Timer Loop is set to execute at a rate of 10Hz.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HS TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the streaming data gets overwritten.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Host IP" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The 32-bit integer IP Address of the connected host. A zero value indicates no host is connected to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Enabled Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether execution tracing is currently active on the RT Target.  Set to 1 to start tracing.  Set to 0 to stop tracing and send result to host (if no host is present it is logged to disk).  Set to -1 to stop tracing and write result to disk.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Detailed Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether detailed execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="VI Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether VI execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Buffer Size" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Bytes" BitFields="3">
+						<Description>Specifies the size in bytes of the execution trace buffer on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>250000</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Thread Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether thread execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Absolute Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>Returns the current date and time in seconds relative to 12:00 a.m., Friday, January 1, 1904, Universal Time [01-01-1904 00:00:00]. This value is coerced from a 128-bit value to double precision, which may impact resolution.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time - Microseconds" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+						<Description>The relative system time in microseconds of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 43" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 44" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Iterations" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Min Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Actual Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Failure Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The failure count of current analysis settings</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Analysis State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the analysis sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="TCP Data Packet Loss" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the VeriStand Engine fails to send a data packet to the host. A non-zero number can indicate data loss in logged data. The value is reset every time a Workspace connects to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to a waveform read session within the NI VeriStand engine and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to the TCP loop (for a host waveform stream session) and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop encountered an error.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Code" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The last error code encountered by the waveform processing loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Waveform Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of waveforms that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Last Late Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop that last recorded a late count. If the Primary Control Loop has not recorded a late count, this value is -1.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 58" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 59" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Internally commands the active real-time sequences with the following numeric values:
+
+0: None
+1: Stop All
+2: Abort All</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of real-time sequences currently running.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 62" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 63" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 64" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 65" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 66" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 67" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 68" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 69" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 70" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 71" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 72" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 73" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 74" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 75" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 76" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 77" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 78" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 79" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 80" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 81" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 82" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 83" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 84" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 85" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 86" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 87" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 88" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 89" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 90" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 91" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="AO1 Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Wakeup Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+						<Description>The wakeup status of the Primary Control Loop.
+
+0: Normal
+1: Aborted
+2: Asynchronous wakeup
+3: Timing source error
+4: Timed loop error
+5: Timeout</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HD Free Space" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP-LP Overwrite" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop timed out writing channel data to the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Data Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop timed out writing channel data to the Communication Send Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Log Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the logging sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+			</Target>
+		</TargetSections>
+		<Section Name="Aliases" TypeGUID="e11f4519-09e6-4fb0-99df-2967c4313d67">
+			<Description />
+			<Properties>
+				<Property Name="DoNotAllowUnmappedAliases">
+					<Boolean>true</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+			<Alias Name="Station_1_ci_Heater_Temperature" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_1_ci_Heater_Temperature" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_co_Heater_Control" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_1_co_Heater_Control" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Position_Setpoint" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Simulation Models/Models/Station_1_RateLimiter/Inports/input (controller output)" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_di_Drive_Fault" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Input/port1/Station_1_di_Drive_Fault" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_do_Drive_Contactor" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_1_do_Drive_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_do_Drive_Enable" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_1_do_Drive_Enable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_do_Heater_Contactor" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_1_do_Heater_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_si_Position_Feedback" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_1_si_Position_Feedback" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Abort" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_Abort" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Duration" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_Duration" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Iteration_Info" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_Iteration_Info" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Step_Info" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_Step_Info" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Abort" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_Abort" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Duration" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_Duration" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Iteration_Info" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_Iteration_Info" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Step_Info" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_Step_Info" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Abort" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_Abort" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Duration" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_Duration" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Iteration_Info" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_Iteration_Info" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Step_Info" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_Step_Info" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_ci_Heater_Temperature" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_2_ci_Heater_Temperature" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_si_Position_Feedback" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_2_si_Position_Feedback" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_ci_Heater_Temperature" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_3_ci_Heater_Temperature" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_si_Position_Feedback" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_3_si_Position_Feedback" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_co_Heater_Control" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_2_co_Heater_Control" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Position_Setpoint" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Simulation Models/Models/Station_2_RateLimiter/Inports/input (controller output)" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_co_Heater_Control" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_3_co_Heater_Control" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Position_Setpoint" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Simulation Models/Models/Station_3_RateLimiter/Inports/input (controller output)" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Temp_Setpoint" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Setpoint" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Temp_Setpoint" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Setpoint" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Temp_Setpoint" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Setpoint" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_di_Drive_Fault" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Input/port1/Station_2_di_Drive_Fault" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_do_Drive_Contactor" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_2_do_Drive_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_do_Drive_Enable" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_2_do_Drive_Enable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_do_Heater_Contactor" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_2_do_Heater_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_di_Drive_Fault" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Input/port1/Station_3_di_Drive_Fault" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_do_Drive_Contactor" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_3_do_Drive_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_do_Drive_Enable" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port6/Station_3_do_Drive_Enable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_do_Heater_Contactor" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_3_do_Heater_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+		</Section>
+		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
+			<Description />
+			<Properties />
+			<Errors />
+			<Section Name="Temperature" TypeGUID="efc327ee-9f55-5043-0433-babd68e52172">
+				<Description />
+				<Properties>
+					<Property Name="Scale Type">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Scale Unit">
+						<String>Deg C</String>
+					</Property>
+					<Property Name="Polynomial Coeff">
+						<DoubleArray>
+							<Elem>0</Elem>
+							<Elem>30</Elem>
+						</DoubleArray>
+					</Property>
+					<Property Name="Reverse Polynomial Coeff">
+						<DoubleArray>
+							<Elem>-1.8432849998726612E-17</Elem>
+							<Elem>0.033333333333333375</Elem>
+						</DoubleArray>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Position_Setpoint" TypeGUID="efc327ee-9f55-5043-0433-babd68e52172">
+				<Description />
+				<Properties>
+					<Property Name="Scale Type">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Scale Unit">
+						<String>mm</String>
+					</Property>
+					<Property Name="Polynomial Coeff">
+						<DoubleArray>
+							<Elem>0</Elem>
+							<Elem>5</Elem>
+						</DoubleArray>
+					</Property>
+					<Property Name="Reverse Polynomial Coeff">
+						<DoubleArray>
+							<Elem>-4.0644269800967382E-15</Elem>
+							<Elem>0.19999999999999979</Elem>
+						</DoubleArray>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="mA to Perc" TypeGUID="2e37de6d-be56-3367-4bd8-c77a6ea39ffa">
+				<Description />
+				<Properties>
+					<Property Name="Scale Type">
+						<U32>2</U32>
+					</Property>
+					<Property Name="Scale Unit">
+						<String>%</String>
+					</Property>
+					<Property Name="Lookup Values">
+						<DoubleArray>
+							<Elem>0.004</Elem>
+							<Elem>0.02</Elem>
+							<Elem>0</Elem>
+							<Elem>100</Elem>
+						</DoubleArray>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Position_Feedback" TypeGUID="efc327ee-9f55-5043-0433-babd68e52172">
+				<Description />
+				<Properties>
+					<Property Name="Scale Type">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Scale Unit">
+						<String>mm</String>
+					</Property>
+					<Property Name="Polynomial Coeff">
+						<DoubleArray>
+							<Elem>0</Elem>
+							<Elem>-5</Elem>
+						</DoubleArray>
+					</Property>
+					<Property Name="Reverse Polynomial Coeff">
+						<DoubleArray>
+							<Elem>-1.8448266933615472E-17</Elem>
+							<Elem>-0.20000000000000021</Elem>
+						</DoubleArray>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Data Sharing Network" TypeGUID="8288dbb9-8c87-4fda-9c66-acec90c46c03">
+			<Description />
+			<Properties>
+				<Property Name="CD Status">
+					<U32>2</U32>
+				</Property>
+				<Property Name="DSN Dynamic Data Size">
+					<I32>30</I32>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="System Initialization" TypeGUID="773b9311-3758-47fa-842f-b1c1960dabd0">
+			<Description />
+			<Properties>
+				<Property Name="Auto Start">
+					<Boolean>false</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+	</Root>
+</Document>

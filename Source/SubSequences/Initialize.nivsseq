@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="10" />
+	<References>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\Wait.nivsseq</Path>
+			<Alias>Wait</Alias>
+		</Reference>
+	</References>
+	<Variables>
+		<ReturnType>
+			<Identifier>Pass</Identifier>
+			<DefaultValue xsi:type="BooleanValue">
+				<Value>false</Value>
+			</DefaultValue>
+		</ReturnType>
+		<Parameters>
+			<ParameterDeclaration>
+				<Identifier>do_Heater_Contactor</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_do_Heater_Contactor" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>do_Drive_Contactor</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_do_Drive_Contactor" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>do_Drive_Enable</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_do_Drive_Enable" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>di_Drive_Fault</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_di_Drive_Fault" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>Temp_Setpoint</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_Temp_Setpoint" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>Abort</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_Abort" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>Iteration_Info</Identifier>
+				<DefaultValue xsi:type="I32Value">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_Iteration_Info" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>Step_Info</Identifier>
+				<DefaultValue xsi:type="I32Value">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_Step_Info" />
+			</ParameterDeclaration>
+		</Parameters>
+		<LocalVariables />
+		<ChannelReferences />
+	</Variables>
+	<Code>
+		<Setup>
+			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Step_Info = 0</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Iteration_Info = 0</ExpressionString>
+				</Statement>
+			</Body>
+		</Setup>
+		<Main>
+			<Body>
+				<Statement xsi:type="Multitask">
+					<Task>
+						<Body>
+							<Statement xsi:type="Expression">
+								<ExpressionString>Wait(.5)</ExpressionString>
+							</Statement>
+							<Statement xsi:type="WhileLoop">
+								<AutoYield>true</AutoYield>
+								<Body />
+								<LoopTest>
+									<ExpressionString>Abort == false</ExpressionString>
+								</LoopTest>
+							</Statement>
+							<Statement xsi:type="StopTask">
+								<TaskName>Sequence</TaskName>
+							</Statement>
+						</Body>
+						<TaskName>Abort</TaskName>
+					</Task>
+					<Task>
+						<Body>
+							<Statement xsi:type="Expression">
+								<ExpressionString>do_Heater_Contactor = true</ExpressionString>
+							</Statement>
+							<Statement xsi:type="Expression">
+								<ExpressionString>do_Drive_Contactor = true</ExpressionString>
+							</Statement>
+							<Statement xsi:type="Expression">
+								<ExpressionString>Wait(2)</ExpressionString>
+							</Statement>
+							<Statement xsi:type="Expression">
+								<ExpressionString>Temp_Setpoint = 50</ExpressionString>
+							</Statement>
+							<Statement xsi:type="Expression">
+								<ExpressionString>do_Drive_Enable = true</ExpressionString>
+							</Statement>
+							<Statement xsi:type="Expression">
+								<ExpressionString>Wait(2)</ExpressionString>
+							</Statement>
+							<Statement xsi:type="StopTask">
+								<TaskName>Abort</TaskName>
+							</Statement>
+						</Body>
+						<TaskName>Sequence</TaskName>
+					</Task>
+				</Statement>
+			</Body>
+		</Main>
+		<CleanUp>
+			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Pass = (di_Drive_Fault == 0 &amp;&amp; Abort == 0)</ExpressionString>
+				</Statement>
+			</Body>
+		</CleanUp>
+	</Code>
+</RealTimeSequence>

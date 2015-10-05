@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2015" Minor="0" Fix="0" Build="0" />
+	<Content>Definition</Content>
+	<Root Name="MultiheadTester" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2">
+		<Description />
+		<Properties>
+			<Property Name="Name">
+				<String>Bushing Wear Test Sustem - Sams Attempt</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0.0</String>
+			</Property>
+			<Property Name="Creator">
+				<String />
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3526309250.3337283</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<Section Name="System Definition File" TypeGUID="b9227a5b-2770-4a62-8621-ac414d4124fb">
+			<Description />
+			<Properties />
+			<Errors />
+			<Section Name="MultiheadTester.nivssdf" TypeGUID="3a41ca74-36ec-4aff-9219-9d05c8f91208">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<DependentFile Type="Relative" Path="MultiheadTester.nivssdf">
+							<Version />
+							<RTDestination />
+							<SupportedTarget />
+							<MD5>329452b3bf0df03bc144a08cee10bce0</MD5>
+						</DependentFile>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+		<Section Name="User Interface" TypeGUID="bc98486f-7b49-4949-9504-949cbe254c85">
+			<Description />
+			<Properties>
+				<Property Name="User Accounts">
+					<Variant>
+						<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+						<Data>AAAAzxUAgAAAAAAFAA5AMP////8ETmFtZQAAEkAw/////whQYXNzd29yZAAADkAw/////wVHcm91cABMAPEAAAAAAAAAAhhTZWMgQWRtaW5pc3RyYXRpb24ubHZsaWIMVXNlclR5cGUuY3RsAB5AUAADAAAAAQACDFVzZXIgQWNjb3VudAAAGkBAAAH/////AAMNVXNlciBBY2NvdW50cwABAAQAAAABAAAADUFkbWluaXN0cmF0b3IAAAAAAAAADkFkbWluaXN0cmF0aW9uAAAAAA==</Data>
+					</Variant>
+				</Property>
+				<Property Name="Group Accounts">
+					<Variant>
+						<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+						<Data>AAAA7RUAgAAAAAAFAA5AMP////8ETmFtZQAADEAhB0Jvb2xlYW4AGEBAAAH/////AAELUGVybWlzc2lvbnMASwDxAAAAAAAAAAIYU2VjIEFkbWluaXN0cmF0aW9uLmx2bGliDUdyb3VwVHlwZS5jdGwAHEBQAAIAAAACDUdyb3VwIEFjY291bnQAHEBAAAH/////AAMOR3JvdXAgQWNjb3VudHMAAAEABAAAAAIAAAAOQWRtaW5pc3RyYXRpb24AAAANAQEBAQEBAQEBAQEBAQAAAAhPcGVyYXRvcgAAAA0BAAAAAQABAQAAAAAAAAAAAA==</Data>
+					</Variant>
+				</Property>
+				<Property Name="Tools Menu Items">
+					<Variant>
+						<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+						<Data>AAAFmRUAgAAAAAAIAA5AMP////8ETmFtZQAAEkAw/////whGdW5jdGlvbgAAYQDxAAAAAAAAAAETVG9vbGJhciBCdXR0b25zLmN0bABFQBYAAwROb25lF1N0aW11bHVzIFByb2ZpbGUgRWRpdG9yC0RhdGEgVmlld2VyAAAOVG9vbGJhciBCdXR0b24AAVMA8QAAAAAAAAABH2VudW1fVXNlciBBZG1pbiBQZXJtaXNzaW9ucy5jdGwBK0AWAA0HRGVmYXVsdA5BZG1pbmlzdHJhdGlvbhdDaGFubmVsIFNjYWxpbmcgVXRpbGl0eRFBZGQgRGlzcGxheSBJdGVtcxNDaGFuZ2UgVXNlciBQcm9maWxlI0VkaXQgU3RpbXVsdXMgUHJvZmlsZSBFZGl0b3IgSGVhZGVyGkVkaXQgRGlzcGxheSBJdGVtIFNldHRpbmdzG01vZGVsIFBhcmFtZXRlciBDYWxpYnJhdGlvbhJSdW50aW1lIEFsYXJtIEVkaXQPRWRpdCBUb29scyBNZW51FkVkaXQgRW5naW5lIENvbXBvbmVudHMaQ29uZmlndXJlIFZpc2libGUgQ2hhbm5lbHMNRmF1bHQgTWFuYWdlcgAAClBlcm1pc3Npb24AABpAMv////8QQ3VzdG9tIFRvb2wgUGF0aAAAdwDxx+1IGQAAAAIRTklWU19TaGFyZWQubHZsaWINUGF0aCB0eXBlLmN0bABPQBYABAhBYnNvbHV0ZQhSZWxhdGl2ZQ5Ub0NvbW1vbkRvY0RpcgxUb0FwcERhdGFEaXIAFUN1c3RvbSBUb29sIFBhdGggVHlwZQBjAPEAAAAAAAAAAhpOSVZTUHJval9GaWxlbWFuYWdlci5sdmxpYhlUb29scyBNZW51IEl0ZW1zIFR5cGUuY3RsACZAUAAGAAAAAQACAAMABAAFD1Rvb2xzIE1lbnUgSXRlbQAeQEAAAf////8ABhBUb29scyBNZW51IEl0ZW1zAAABAAcAAAAMAAAAEUJ1c2hpbmcgV2VhciBUZXN0AAAABU90aGVyAAAAAFBUSDAAAAAzAAEAAw9Xb3Jrc3BhY2UgVG9vbHMNTXVsdGloZWFkIEdVSRBNdWx0aWhlYWQgR1VJLnZpAAIAAAABLQAAAAEtAAAAAFBUSDAAAAAEAAAAAAAAAAAADUFsYXJtIE1vbml0b3IAAAAUc3ViX0FsYXJtIE1vbml0b3IudmkAAAAIUFRIMAAAAAQAAAAAAAAAAAABLQAAAAEtAAAAAVBUSDAAAAAEAAAAAAAAAAAAD1BJRCBUdW5pbmcgVG9vbAAAAAVPdGhlcgAAAABQVEgwAAAAKwABAAMPV29ya3NwYWNlIFRvb2xzCFBJRCBUb29sDVBJRCAtIFRvb2wudmkAAgAAAAEtAAAAAS0AAAABUFRIMAAAAAQAAAAAAAAAAAATQ2hhbm5lbCBDYWxpYnJhdGlvbgAAABJDYWxpYnJhdGlvblRvb2wudmkAAAACUFRIMAAAAAQAAAAAAAAAAAAVQ2hhbm5lbCBGYXVsdCBNYW5hZ2VyAAAAFHNjcl9GYXVsdCBNYW5hZ2VyLnZpAAAADFBUSDAAAAAEAAAAAAAAAAAAAS0AAAABLQAAAAFQVEgwAAAABAAAAAAAAAAAABNDaGFubmVsIERhdGEgVmlld2VyAAAAFkNoYW5uZWwgRGF0YSBWaWV3ZXIudmkAAAAAUFRIMAAAAAQAAAAAAAAAAAAOQ29uc29sZSBWaWV3ZXIAAAASVmlldyBSVCBDb25zb2xlLnZpAAAAAVBUSDAAAAAEAAAAAAAAAAAAEFRETVMgRmlsZSBWaWV3ZXIAAAAXc2NyX1RETVMgRGF0YSBWaWV3ZXIudmkAAgAAUFRIMAAAAAQAAAAAAAAAAAAA</Data>
+					</Variant>
+				</Property>
+			</Properties>
+			<Errors />
+			<Section Name="MultiheadTester.nivsscreen" TypeGUID="cdfadfe0-c84a-4268-a677-4f2f3525465e">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<DependentFile Type="Relative" Path="MultiheadTester.nivsscreen">
+							<Version />
+							<RTDestination />
+							<SupportedTarget />
+							<MD5>f8f238ff84fa472b51c80a46e1539e29</MD5>
+						</DependentFile>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+		<Section Name="Services" TypeGUID="736a951c-d9c8-457f-96a9-cd0ef16011a5">
+			<Description />
+			<Properties />
+			<Errors />
+			<Section Name="Model Parameter Manager" TypeGUID="cc686646-9933-410d-a553-6308e6e06897">
+				<Description />
+				<Properties>
+					<Property Name="Function">
+						<String>Model Parameter Manager.vi</String>
+					</Property>
+					<Property Name="Path">
+						<DependentFile Type="Absolute" Path="">
+							<Version />
+							<RTDestination />
+							<SupportedTarget />
+							<MD5 />
+						</DependentFile>
+					</Property>
+					<Property Name="Sync Options">
+						<String>WaitSync</String>
+					</Property>
+					<Property Name="Sync Timeout">
+						<I32>10000</I32>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+		<Section Name="Profiles" TypeGUID="c3bd79ec-3336-4b06-868e-3217c640edd5">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Calibration" TypeGUID="38433223-24A0-4b32-9339-370EC5AA31B4">
+			<Description />
+			<Properties />
+			<Errors />
+			<Section Name="Bushing Wear Test System.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<DependentFile Type="To Common Doc Dir" Path="Projects\Bushing Wear Test System\Bushing Wear Test System.nivscf">
+							<Version />
+							<RTDestination />
+							<SupportedTarget />
+							<MD5>4f40742ea1b908b96a25e2aea0acedd1</MD5>
+						</DependentFile>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+		<Section Name="Alarm Responses" TypeGUID="3b1ab560-d77a-41f2-adb4-0c0250b010b3">
+			<Description />
+			<Properties />
+			<Errors />
+			<Section Name="Alarm Response" TypeGUID="99267DF5-8C59-4AAC-B020-7591F4886206">
+				<Description />
+				<Properties>
+					<Property Name="Show Dialog">
+						<Boolean>true</Boolean>
+					</Property>
+					<Property Name="Play Sound">
+						<String>Disabled</String>
+					</Property>
+					<Property Name="Wave File">
+						<DependentFile Type="Absolute" Path="">
+							<Version />
+							<RTDestination />
+							<SupportedTarget />
+							<MD5 />
+						</DependentFile>
+					</Property>
+					<Property Name="Log Alarms">
+						<String>Enabled</String>
+					</Property>
+					<Property Name="Log File">
+						<String>Logs\Alarm Log.txt</String>
+					</Property>
+					<Property Name="Max Priority">
+						<U32>21</U32>
+					</Property>
+					<Property Name="Min Priority">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Enable Response">
+						<Boolean>true</Boolean>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+		<Section Name="Custom Files" TypeGUID="9e2cb626-3583-4345-aeb6-b9fead6ec565">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Dependencies" TypeGUID="e5b093fa-a709-4df2-807e-a403422ba675">
+			<Description />
+			<Properties />
+			<Errors />
+			<Section Name="Control Addon Engine VxWorks.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Custom Devices\Control Addon\c\Control Addon Engine VxWorks.llb</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Rate Limiter.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System\Models\Rate Limiter.lvmodel</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Rate Limiter.lvmodel (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System - Copy\Models\Rate Limiter.lvmodel</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="MultiheadTester.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System - Copy\MultiheadTester.nivssdf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="MultiheadTester.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System - Copy\MultiheadTester.nivsscreen</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Bushing Wear Test System.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System\Bushing Wear Test System.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+		</Section>
+	</Root>
+</Document>

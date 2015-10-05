@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="10" />
+	<References>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\Wait.nivsseq</Path>
+			<Alias>Wait</Alias>
+		</Reference>
+	</References>
+	<Variables>
+		<ReturnType>
+			<Identifier>Pass</Identifier>
+			<DefaultValue xsi:type="BooleanValue">
+				<Value>false</Value>
+			</DefaultValue>
+		</ReturnType>
+		<Parameters>
+			<ParameterDeclaration>
+				<Identifier>do_Heater_Contactor</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_do_Heater_Contactor" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>do_Drive_Contactor</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_do_Drive_Contactor" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>do_Drive_Enable</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_do_Drive_Enable" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>di_Drive_Fault</Identifier>
+				<DefaultValue xsi:type="BooleanValue">
+					<Value>false</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_di_Drive_Fault" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>Temp_Setpoint</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_Temp_Setpoint" />
+			</ParameterDeclaration>
+		</Parameters>
+		<LocalVariables />
+		<ChannelReferences />
+	</Variables>
+	<Code>
+		<Setup>
+			<Body />
+		</Setup>
+		<Main>
+			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Temp_Setpoint = 0</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>do_Drive_Enable = false</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Wait(2)</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>do_Drive_Contactor = false</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>do_Heater_Contactor = false</ExpressionString>
+				</Statement>
+			</Body>
+		</Main>
+		<CleanUp>
+			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Pass = true</ExpressionString>
+				</Statement>
+			</Body>
+		</CleanUp>
+	</Code>
+</RealTimeSequence>
