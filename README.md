@@ -1,24 +1,26 @@
-## IP Name ##
+## Multihead Test Automation Example ##
 
-**IP Name** is a insert description of IP
+This is an exmaple of how to use a single target within NI VeriStand to automate multiple UUTs independantly. It allows for maintaining a single set of test files that are automatically modified per individual UUT test station.
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2015
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s). Pre-built versions are available upon request through NI Field Sales.
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It is currently being tested with customers.
 
-Describe any limitations of the IP.
+Automation is meant for a basic cycle tester.  It has a custom initialization and shutdown sequence.  The main sequence is just playing a CSV over and over for a set number of iterations.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+AMC 3.3.0.21
+GXML 1.4.2.8
+OpenG Data Libraries 4.2.0.21
 
 ### License ###
 
