@@ -57,7 +57,7 @@
 				<Property Name="Tools Menu Items">
 					<Variant>
 						<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-						<Data>AAAFmRUAgAAAAAAIAA5AMP////8ETmFtZQAAEkAw/////whGdW5jdGlvbgAAYQDxAAAAAAAAAAETVG9vbGJhciBCdXR0b25zLmN0bABFQBYAAwROb25lF1N0aW11bHVzIFByb2ZpbGUgRWRpdG9yC0RhdGEgVmlld2VyAAAOVG9vbGJhciBCdXR0b24AAVMA8QAAAAAAAAABH2VudW1fVXNlciBBZG1pbiBQZXJtaXNzaW9ucy5jdGwBK0AWAA0HRGVmYXVsdA5BZG1pbmlzdHJhdGlvbhdDaGFubmVsIFNjYWxpbmcgVXRpbGl0eRFBZGQgRGlzcGxheSBJdGVtcxNDaGFuZ2UgVXNlciBQcm9maWxlI0VkaXQgU3RpbXVsdXMgUHJvZmlsZSBFZGl0b3IgSGVhZGVyGkVkaXQgRGlzcGxheSBJdGVtIFNldHRpbmdzG01vZGVsIFBhcmFtZXRlciBDYWxpYnJhdGlvbhJSdW50aW1lIEFsYXJtIEVkaXQPRWRpdCBUb29scyBNZW51FkVkaXQgRW5naW5lIENvbXBvbmVudHMaQ29uZmlndXJlIFZpc2libGUgQ2hhbm5lbHMNRmF1bHQgTWFuYWdlcgAAClBlcm1pc3Npb24AABpAMv////8QQ3VzdG9tIFRvb2wgUGF0aAAAdwDxx+1IGQAAAAIRTklWU19TaGFyZWQubHZsaWINUGF0aCB0eXBlLmN0bABPQBYABAhBYnNvbHV0ZQhSZWxhdGl2ZQ5Ub0NvbW1vbkRvY0RpcgxUb0FwcERhdGFEaXIAFUN1c3RvbSBUb29sIFBhdGggVHlwZQBjAPEAAAAAAAAAAhpOSVZTUHJval9GaWxlbWFuYWdlci5sdmxpYhlUb29scyBNZW51IEl0ZW1zIFR5cGUuY3RsACZAUAAGAAAAAQACAAMABAAFD1Rvb2xzIE1lbnUgSXRlbQAeQEAAAf////8ABhBUb29scyBNZW51IEl0ZW1zAAABAAcAAAAMAAAAEUJ1c2hpbmcgV2VhciBUZXN0AAAABU90aGVyAAAAAFBUSDAAAAAzAAEAAw9Xb3Jrc3BhY2UgVG9vbHMNTXVsdGloZWFkIEdVSRBNdWx0aWhlYWQgR1VJLnZpAAIAAAABLQAAAAEtAAAAAFBUSDAAAAAEAAAAAAAAAAAADUFsYXJtIE1vbml0b3IAAAAUc3ViX0FsYXJtIE1vbml0b3IudmkAAAAIUFRIMAAAAAQAAAAAAAAAAAABLQAAAAEtAAAAAVBUSDAAAAAEAAAAAAAAAAAAD1BJRCBUdW5pbmcgVG9vbAAAAAVPdGhlcgAAAABQVEgwAAAAKwABAAMPV29ya3NwYWNlIFRvb2xzCFBJRCBUb29sDVBJRCAtIFRvb2wudmkAAgAAAAEtAAAAAS0AAAABUFRIMAAAAAQAAAAAAAAAAAATQ2hhbm5lbCBDYWxpYnJhdGlvbgAAABJDYWxpYnJhdGlvblRvb2wudmkAAAACUFRIMAAAAAQAAAAAAAAAAAAVQ2hhbm5lbCBGYXVsdCBNYW5hZ2VyAAAAFHNjcl9GYXVsdCBNYW5hZ2VyLnZpAAAADFBUSDAAAAAEAAAAAAAAAAAAAS0AAAABLQAAAAFQVEgwAAAABAAAAAAAAAAAABNDaGFubmVsIERhdGEgVmlld2VyAAAAFkNoYW5uZWwgRGF0YSBWaWV3ZXIudmkAAAAAUFRIMAAAAAQAAAAAAAAAAAAOQ29uc29sZSBWaWV3ZXIAAAASVmlldyBSVCBDb25zb2xlLnZpAAAAAVBUSDAAAAAEAAAAAAAAAAAAEFRETVMgRmlsZSBWaWV3ZXIAAAAXc2NyX1RETVMgRGF0YSBWaWV3ZXIudmkAAgAAUFRIMAAAAAQAAAAAAAAAAAAA</Data>
+						<Data>AAAFmhUAgAAAAAAIAA5AMP////8ETmFtZQAAEkAw/////whGdW5jdGlvbgAAYQDxAAAAAAAAAAETVG9vbGJhciBCdXR0b25zLmN0bABFQBYAAwROb25lF1N0aW11bHVzIFByb2ZpbGUgRWRpdG9yC0RhdGEgVmlld2VyAAAOVG9vbGJhciBCdXR0b24AAVMA8QAAAAAAAAABH2VudW1fVXNlciBBZG1pbiBQZXJtaXNzaW9ucy5jdGwBK0AWAA0HRGVmYXVsdA5BZG1pbmlzdHJhdGlvbhdDaGFubmVsIFNjYWxpbmcgVXRpbGl0eRFBZGQgRGlzcGxheSBJdGVtcxNDaGFuZ2UgVXNlciBQcm9maWxlI0VkaXQgU3RpbXVsdXMgUHJvZmlsZSBFZGl0b3IgSGVhZGVyGkVkaXQgRGlzcGxheSBJdGVtIFNldHRpbmdzG01vZGVsIFBhcmFtZXRlciBDYWxpYnJhdGlvbhJSdW50aW1lIEFsYXJtIEVkaXQPRWRpdCBUb29scyBNZW51FkVkaXQgRW5naW5lIENvbXBvbmVudHMaQ29uZmlndXJlIFZpc2libGUgQ2hhbm5lbHMNRmF1bHQgTWFuYWdlcgAAClBlcm1pc3Npb24AABpAMv////8QQ3VzdG9tIFRvb2wgUGF0aAAAdwDxx+1IGQAAAAIRTklWU19TaGFyZWQubHZsaWINUGF0aCB0eXBlLmN0bABPQBYABAhBYnNvbHV0ZQhSZWxhdGl2ZQ5Ub0NvbW1vbkRvY0RpcgxUb0FwcERhdGFEaXIAFUN1c3RvbSBUb29sIFBhdGggVHlwZQBjAPEAAAAAAAAAAhpOSVZTUHJval9GaWxlbWFuYWdlci5sdmxpYhlUb29scyBNZW51IEl0ZW1zIFR5cGUuY3RsACZAUAAGAAAAAQACAAMABAAFD1Rvb2xzIE1lbnUgSXRlbQAeQEAAAf////8ABhBUb29scyBNZW51IEl0ZW1zAAABAAcAAAAMAAAAEk11dGxpaGVhZCBUZXN0IEFwcAAAAAVPdGhlcgAAAABQVEgwAAAAMwABAAMPV29ya3NwYWNlIFRvb2xzDU11bHRpaGVhZCBHVUkQTXVsdGloZWFkIEdVSS52aQACAAAAAS0AAAABLQAAAABQVEgwAAAABAAAAAAAAAAAAA1BbGFybSBNb25pdG9yAAAAFHN1Yl9BbGFybSBNb25pdG9yLnZpAAAACFBUSDAAAAAEAAAAAAAAAAAAAS0AAAABLQAAAAFQVEgwAAAABAAAAAAAAAAAAA9QSUQgVHVuaW5nIFRvb2wAAAAFT3RoZXIAAAAAUFRIMAAAACsAAQADD1dvcmtzcGFjZSBUb29scwhQSUQgVG9vbA1QSUQgLSBUb29sLnZpAAIAAAABLQAAAAEtAAAAAVBUSDAAAAAEAAAAAAAAAAAAE0NoYW5uZWwgQ2FsaWJyYXRpb24AAAASQ2FsaWJyYXRpb25Ub29sLnZpAAAAAlBUSDAAAAAEAAAAAAAAAAAAFUNoYW5uZWwgRmF1bHQgTWFuYWdlcgAAABRzY3JfRmF1bHQgTWFuYWdlci52aQAAAAxQVEgwAAAABAAAAAAAAAAAAAEtAAAAAS0AAAABUFRIMAAAAAQAAAAAAAAAAAATQ2hhbm5lbCBEYXRhIFZpZXdlcgAAABZDaGFubmVsIERhdGEgVmlld2VyLnZpAAAAAFBUSDAAAAAEAAAAAAAAAAAADkNvbnNvbGUgVmlld2VyAAAAElZpZXcgUlQgQ29uc29sZS52aQAAAAFQVEgwAAAABAAAAAAAAAAAABBURE1TIEZpbGUgVmlld2VyAAAAF3Njcl9URE1TIERhdGEgVmlld2VyLnZpAAIAAFBUSDAAAAAEAAAAAAAAAAAAAA==</Data>
 					</Variant>
 				</Property>
 			</Properties>
@@ -157,10 +157,45 @@
 						<String>Logs\Alarm Log.txt</String>
 					</Property>
 					<Property Name="Max Priority">
-						<U32>21</U32>
+						<U32>19</U32>
 					</Property>
 					<Property Name="Min Priority">
 						<U32>0</U32>
+					</Property>
+					<Property Name="Enable Response">
+						<Boolean>true</Boolean>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Response" TypeGUID="99267DF5-8C59-4AAC-B020-7591F4886206">
+				<Description />
+				<Properties>
+					<Property Name="Show Dialog">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Play Sound">
+						<String>Disabled</String>
+					</Property>
+					<Property Name="Wave File">
+						<DependentFile Type="Absolute" Path="">
+							<Version />
+							<RTDestination />
+							<SupportedTarget />
+							<MD5 />
+						</DependentFile>
+					</Property>
+					<Property Name="Log Alarms">
+						<String>Disabled</String>
+					</Property>
+					<Property Name="Log File">
+						<String />
+					</Property>
+					<Property Name="Max Priority">
+						<U32>30</U32>
+					</Property>
+					<Property Name="Min Priority">
+						<U32>20</U32>
 					</Property>
 					<Property Name="Enable Response">
 						<Boolean>true</Boolean>
@@ -196,38 +231,38 @@
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Rate Limiter.lvmodel (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System - Copy\Models\Rate Limiter.lvmodel</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="MultiheadTester.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System - Copy\MultiheadTester.nivssdf</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="MultiheadTester.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System - Copy\MultiheadTester.nivsscreen</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
 			<Section Name="Bushing Wear Test System.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
 						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System\Bushing Wear Test System.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="MultiheadTester.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\addons\Multihead Tester GUI\Source\VeriStandProject\MultiheadTester.nivssdf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="MultiheadTester.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\addons\Multihead Tester GUI\Source\VeriStandProject\MultiheadTester.nivsscreen</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Rate Limiter.lvmodel (2)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\addons\Multihead Tester GUI\Source\VeriStandProject\Models\Rate Limiter.lvmodel</String>
 					</Property>
 				</Properties>
 				<Errors />

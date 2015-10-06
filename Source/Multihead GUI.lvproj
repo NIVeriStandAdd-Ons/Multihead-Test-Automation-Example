@@ -137,10 +137,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Bushing Wear Test" Type="Source Distribution">
+			<Item Name="Multihead GUI" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A611042D-6465-4D00-A3D6-E442793A3AB2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Bushing Wear Test</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Multihead GUI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
@@ -148,7 +148,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{817F33A8-D3E3-464C-AB26-80B5B65DBE63}</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/NI_AB_PROJECTNAME</Property>
@@ -162,7 +162,7 @@
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BD96BDE-B08C-49A0-A137-383E3E106C2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79734BA4-3EC0-4F1E-8575-656711CDBB6A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Overview GUI.lvlib</Property>

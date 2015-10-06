@@ -10,7 +10,7 @@
 				<String>MultiheadTester</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.91</String>
+				<String>1.0.0.153</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Windows</String>
+						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String>192.168.1.131</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -129,1121 +129,6 @@
 								<Description />
 								<Properties />
 								<Errors />
-							</Section>
-							<Section Name="Dev1" TypeGUID="77550632-1485-13A6-562E22989AF1271F">
-								<Description />
-								<Properties>
-									<Property Name="HWTSP AI">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="Port Width">
-										<U16>8</U16>
-									</Property>
-									<Property Name="HWTSP AO">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="Product ID">
-										<U64>28873</U64>
-									</Property>
-									<Property Name="Product Name">
-										<String>PXI-6515</String>
-									</Property>
-									<Property Name="Product Category">
-										<I32>0</I32>
-									</Property>
-									<Property Name="Input Configuration">
-										<I32>-1</I32>
-									</Property>
-									<Property Name="HDW Serial">
-										<String>013DF8C0</String>
-									</Property>
-									<Property Name="HDW Product ID">
-										<String>28873</String>
-									</Property>
-									<Property Name="HDW Model">
-										<String>NI PXI-6515</String>
-									</Property>
-									<Property Name="HDW Plugin">
-										<String>DAQ</String>
-									</Property>
-									<Property Name="HDW Slot Number">
-										<I32>2</I32>
-									</Property>
-								</Properties>
-								<Errors />
-								<Section Name="Digital Input" TypeGUID="7755069F-1485-13A6-5611FCCCE7E29CCD">
-									<Description />
-									<Properties />
-									<Errors />
-									<Section Name="port1" TypeGUID="7755071C-1485-13A6-563FB4C0B9899C30">
-										<Description />
-										<Properties>
-											<Property Name="Inverted?">
-												<Boolean>false</Boolean>
-											</Property>
-										</Properties>
-										<Errors />
-										<Channel Name="Station_1_di_Drive_Fault" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="Bool" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>0</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_2_di_Drive_Fault" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>1</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_3_di_Drive_Fault" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>2</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="DI3" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>3</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="DI4" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>4</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="DI5" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>5</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="DI6" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>6</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="DI7" TypeGUID="775506ED-1485-13A6-56B51E84EB822783" RowDim="1" ColDim="1" Units="" BitFields="5">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>6E9F0EA1-8AE2-48ad-93C2-952AFD051A22</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>7</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>1</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-								<Section Name="Digital Output" TypeGUID="775506AF-1485-13A6-56FF70AF05590A56">
-									<Description />
-									<Properties />
-									<Errors />
-									<Section Name="port5" TypeGUID="7755071C-1485-13A6-563FB4C0B9899C30">
-										<Description />
-										<Properties>
-											<Property Name="Inverted?">
-												<Boolean>false</Boolean>
-											</Property>
-										</Properties>
-										<Errors />
-										<Channel Name="Station_1_do_Heater_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="Bool" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>0</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_1_do_Drive_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="Bool" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>1</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_1_do_Drive_Enable" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="Bool" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>2</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_2_do_Heater_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>3</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_2_do_Drive_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>4</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_2_do_Drive_Enable" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>5</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_3_do_Heater_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>6</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Station_3_do_Drive_Contactor" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>7</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>5</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-									<Section Name="port6" TypeGUID="7755071C-1485-13A6-563FB4C0B9899C30">
-										<Description />
-										<Properties>
-											<Property Name="Inverted?">
-												<Boolean>false</Boolean>
-											</Property>
-										</Properties>
-										<Errors />
-										<Channel Name="Station_3_do_Drive_Enable" TypeGUID="775506FD-1485-13A6-56399B676D4C3FBE" RowDim="1" ColDim="1" Units="" BitFields="7">
-											<Description />
-											<Properties>
-												<Property Name="Is SCXI?">
-													<Boolean>false</Boolean>
-												</Property>
-												<Property Name="Plugin GUID">
-													<String>48CBF585-8E29-47e5-A0CA-5E0C9B4E434F</String>
-												</Property>
-												<Property Name="Invert?">
-													<I32>-1</I32>
-												</Property>
-												<Property Name="Bit">
-													<U32>0</U32>
-												</Property>
-												<Property Name="Port#">
-													<U32>6</U32>
-												</Property>
-											</Properties>
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-							</Section>
-							<Section Name="Dev2" TypeGUID="77550632-1485-13A6-562E22989AF1271F">
-								<Description />
-								<Properties>
-									<Property Name="HWTSP AI">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="Port Width">
-										<U16>8</U16>
-									</Property>
-									<Property Name="HWTSP AO">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="Product ID">
-										<U64>29037</U64>
-									</Property>
-									<Property Name="Product Name">
-										<String>PXI-6225</String>
-									</Property>
-									<Property Name="Product Category">
-										<I32>0</I32>
-									</Property>
-									<Property Name="Input Configuration">
-										<I32>10106</I32>
-									</Property>
-									<Property Name="HDW Serial">
-										<String>0129092C</String>
-									</Property>
-									<Property Name="HDW Product ID">
-										<String>29037</String>
-									</Property>
-									<Property Name="HDW Model">
-										<String>NI PXI-6225</String>
-									</Property>
-									<Property Name="HDW Plugin">
-										<String>DAQ</String>
-									</Property>
-									<Property Name="HDW Slot Number">
-										<I32>3</I32>
-									</Property>
-								</Properties>
-								<Errors />
-								<Section Name="Analog Input" TypeGUID="77550680-1485-13A6-56222BCBF3D67F67">
-									<Description />
-									<Properties>
-										<Property Name="Sample Mode">
-											<I32>0</I32>
-										</Property>
-										<Property Name="SlowBackgroundConvert">
-											<Boolean>false</Boolean>
-										</Property>
-										<Property Name="SlowBackgroundConvert.Rate">
-											<Double>-1</Double>
-										</Property>
-									</Properties>
-									<Errors />
-									<Channel Name="Station_1_ci_Heater_Temperature" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Input Configuration">
-												<I32>10083</I32>
-											</Property>
-											<Property Name="Digital Filter Type">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Digital Filter Cutoff - Enum">
-												<I32>1000</I32>
-											</Property>
-											<Property Name="Analog Filter Cutoff - Enum">
-												<I32>0</I32>
-											</Property>
-											<Property Name="!In-Situ Calibration">
-												<I32>3</I32>
-											</Property>
-											<Property Name="!In-Situ Minimum Value">
-												<Double>-5</Double>
-											</Property>
-											<Property Name="!In-Situ Maximum Value">
-												<Double>5</Double>
-											</Property>
-											<Property Name="!In-Situ Input Configuration">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Channel">
-												<String>0</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Temperature" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_1_si_Position_Feedback" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Input Configuration">
-												<I32>10106</I32>
-											</Property>
-											<Property Name="Digital Filter Type">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Digital Filter Cutoff - Enum">
-												<I32>1000</I32>
-											</Property>
-											<Property Name="Analog Filter Cutoff - Enum">
-												<I32>0</I32>
-											</Property>
-											<Property Name="!In-Situ Calibration">
-												<I32>3</I32>
-											</Property>
-											<Property Name="!In-Situ Minimum Value">
-												<Double>-5</Double>
-											</Property>
-											<Property Name="!In-Situ Maximum Value">
-												<Double>5</Double>
-											</Property>
-											<Property Name="!In-Situ Input Configuration">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Channel">
-												<String>1</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Position_Feedback" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_2_ci_Heater_Temperature" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Input Configuration">
-												<I32>10083</I32>
-											</Property>
-											<Property Name="Digital Filter Type">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Digital Filter Cutoff - Enum">
-												<I32>1000</I32>
-											</Property>
-											<Property Name="Analog Filter Cutoff - Enum">
-												<I32>0</I32>
-											</Property>
-											<Property Name="!In-Situ Calibration">
-												<I32>3</I32>
-											</Property>
-											<Property Name="!In-Situ Minimum Value">
-												<Double>-5</Double>
-											</Property>
-											<Property Name="!In-Situ Maximum Value">
-												<Double>5</Double>
-											</Property>
-											<Property Name="!In-Situ Input Configuration">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Channel">
-												<String>2</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_2_si_Position_Feedback" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Input Configuration">
-												<I32>10106</I32>
-											</Property>
-											<Property Name="Digital Filter Type">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Digital Filter Cutoff - Enum">
-												<I32>1000</I32>
-											</Property>
-											<Property Name="Analog Filter Cutoff - Enum">
-												<I32>0</I32>
-											</Property>
-											<Property Name="!In-Situ Calibration">
-												<I32>3</I32>
-											</Property>
-											<Property Name="!In-Situ Minimum Value">
-												<Double>-5</Double>
-											</Property>
-											<Property Name="!In-Situ Maximum Value">
-												<Double>5</Double>
-											</Property>
-											<Property Name="!In-Situ Input Configuration">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Channel">
-												<String>3</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Position_Feedback" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_3_ci_Heater_Temperature" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Input Configuration">
-												<I32>10083</I32>
-											</Property>
-											<Property Name="Digital Filter Type">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Digital Filter Cutoff - Enum">
-												<I32>1000</I32>
-											</Property>
-											<Property Name="Analog Filter Cutoff - Enum">
-												<I32>0</I32>
-											</Property>
-											<Property Name="!In-Situ Calibration">
-												<I32>3</I32>
-											</Property>
-											<Property Name="!In-Situ Minimum Value">
-												<Double>-5</Double>
-											</Property>
-											<Property Name="!In-Situ Maximum Value">
-												<Double>5</Double>
-											</Property>
-											<Property Name="!In-Situ Input Configuration">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Channel">
-												<String>4</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_3_si_Position_Feedback" TypeGUID="775506CE-1485-13A6-56A13E7139081FC2" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>9AABD2BE-2507-48b4-A80B-A12FD4B130CF</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Input Configuration">
-												<I32>10106</I32>
-											</Property>
-											<Property Name="Digital Filter Type">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Digital Filter Cutoff - Enum">
-												<I32>1000</I32>
-											</Property>
-											<Property Name="Analog Filter Cutoff - Enum">
-												<I32>0</I32>
-											</Property>
-											<Property Name="!In-Situ Calibration">
-												<I32>3</I32>
-											</Property>
-											<Property Name="!In-Situ Minimum Value">
-												<Double>-5</Double>
-											</Property>
-											<Property Name="!In-Situ Maximum Value">
-												<Double>5</Double>
-											</Property>
-											<Property Name="!In-Situ Input Configuration">
-												<I32>0</I32>
-											</Property>
-											<Property Name="Channel">
-												<String>5</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Position_Feedback" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-								<Section Name="Analog Output" TypeGUID="7755068F-1485-13A6-56B6F9724C6B7E7F">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="Station_2_co_Position_Setpoint" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="V" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>76464909-DD37-43bb-853D-5B30FEC680A6</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Channel">
-												<String>1</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Position_Setpoint" />
-											</Property>
-											<Property Name="DataSource">
-												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/Station_2_RateLimiter/Outports/output" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_1_co_Position_Setpoint" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="V" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>76464909-DD37-43bb-853D-5B30FEC680A6</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Channel">
-												<String>0</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Position_Setpoint" />
-											</Property>
-											<Property Name="DataSource">
-												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/Station_1_RateLimiter/Outports/output" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-							</Section>
-							<Section Name="Dev3" TypeGUID="77550632-1485-13A6-562E22989AF1271F">
-								<Description />
-								<Properties>
-									<Property Name="HWTSP AI">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="Port Width">
-										<U16>8</U16>
-									</Property>
-									<Property Name="HWTSP AO">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="Product ID">
-										<U64>6432</U64>
-									</Property>
-									<Property Name="Product Name">
-										<String>PXI-6704</String>
-									</Property>
-									<Property Name="Product Category">
-										<I32>0</I32>
-									</Property>
-									<Property Name="Input Configuration">
-										<I32>10106</I32>
-									</Property>
-									<Property Name="HDW Serial">
-										<String>013DD1AF</String>
-									</Property>
-									<Property Name="HDW Product ID">
-										<String>6432</String>
-									</Property>
-									<Property Name="HDW Model">
-										<String>NI PXI-6704</String>
-									</Property>
-									<Property Name="HDW Plugin">
-										<String>DAQ</String>
-									</Property>
-									<Property Name="HDW Slot Number">
-										<I32>4</I32>
-									</Property>
-									<Property Name="PXIBackplaneReferenceClock">
-										<I32>0</I32>
-									</Property>
-								</Properties>
-								<Errors />
-								<Section Name="Analog Output" TypeGUID="7755068F-1485-13A6-56B6F9724C6B7E7F">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="Station_1_co_Heater_Control" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="A" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>480637E7-B0FD-4775-A078-2788CAC5B6AE</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>0</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>0.02</Double>
-											</Property>
-											<Property Name="Channel">
-												<String>16</String>
-											</Property>
-											<Property Name="DataSource">
-												<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Output" />
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/mA to Perc" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_3_co_Position_Setpoint" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="V" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>76464909-DD37-43bb-853D-5B30FEC680A6</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>-10</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>10</Double>
-											</Property>
-											<Property Name="Channel">
-												<String>0</String>
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/Position_Setpoint" />
-											</Property>
-											<Property Name="DataSource">
-												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/Station_3_RateLimiter/Outports/output" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_2_co_Heater_Control" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="A" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>480637E7-B0FD-4775-A078-2788CAC5B6AE</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>0</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>0.02</Double>
-											</Property>
-											<Property Name="Channel">
-												<String>17</String>
-											</Property>
-											<Property Name="DataSource">
-												<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Output" />
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/mA to Perc" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Station_3_co_Heater_Control" TypeGUID="775506DD-1485-13A6-569AA9AEB5FBC117" RowDim="1" ColDim="1" Units="A" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="Is SCXI?">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="SCXI Module Type">
-												<String />
-											</Property>
-											<Property Name="Plugin GUID">
-												<String>480637E7-B0FD-4775-A078-2788CAC5B6AE</String>
-											</Property>
-											<Property Name="Low Level">
-												<Double>0</Double>
-											</Property>
-											<Property Name="High Level">
-												<Double>0.02</Double>
-											</Property>
-											<Property Name="Channel">
-												<String>18</String>
-											</Property>
-											<Property Name="DataSource">
-												<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Output" />
-											</Property>
-											<Property Name="Scale Path">
-												<DependentNode Path="Scales/mA to Perc" />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
 							</Section>
 						</Section>
 						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7">
@@ -1359,10 +244,10 @@
 									<Double>10</Double>
 								</Property>
 								<Property Name="user.CD.FeedbackNode">
-									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_1_ci_Heater_Temperature" />
+									<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_ci_Heater_Temperature" />
 								</Property>
 								<Property Name="user.CD.OutputNode">
-									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_1_co_Heater_Control" />
+									<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_co_Heater_Control" />
 								</Property>
 							</Properties>
 							<Errors />
@@ -1442,10 +327,10 @@
 									<Double>10</Double>
 								</Property>
 								<Property Name="user.CD.FeedbackNode">
-									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_2_ci_Heater_Temperature" />
+									<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_ci_Heater_Temperature" />
 								</Property>
 								<Property Name="user.CD.OutputNode">
-									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_2_co_Heater_Control" />
+									<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_co_Heater_Control" />
 								</Property>
 							</Properties>
 							<Errors />
@@ -1525,10 +410,10 @@
 									<Double>10</Double>
 								</Property>
 								<Property Name="user.CD.OutputNode">
-									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_3_co_Heater_Control" />
+									<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_co_Heater_Control" />
 								</Property>
 								<Property Name="user.CD.FeedbackNode">
-									<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_3_ci_Heater_Temperature" />
+									<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_ci_Heater_Temperature" />
 								</Property>
 							</Properties>
 							<Errors />
@@ -2177,6 +1062,74 @@
 								<Elem>0</Elem>
 							</DefaultValue>
 						</Channel>
+						<Channel Name="Station_1_di_Drive_Fault" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_do_Drive_Contactor" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_do_Drive_Enable" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_do_Heater_Contactor" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_ci_Heater_Temperature" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="DegC" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_si_Position_Feedback" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="mm" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_co_Position_Setpoint" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="mm" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_1_co_Heater_Control" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="DegC" BitFields="7">
+							<Description />
+							<Properties>
+								<Property Name="DataSource">
+									<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Output" />
+								</Property>
+							</Properties>
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
 					</Section>
 					<Section Name="Station_2" TypeGUID="7f9b2ef4-f3fc-4448-975a7018fe511e0d">
 						<Description />
@@ -2214,6 +1167,74 @@
 								<Elem>0</Elem>
 							</DefaultValue>
 						</Channel>
+						<Channel Name="Station_2_di_Drive_Fault" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_do_Drive_Contactor" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_do_Drive_Enable" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_do_Heater_Contactor" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_ci_Heater_Temperature" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="DegC" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_si_Position_Feedback" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="mm" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_co_Position_Setpoint" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="mm" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_2_co_Heater_Control" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="DegC" BitFields="7">
+							<Description />
+							<Properties>
+								<Property Name="DataSource">
+									<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Output" />
+								</Property>
+							</Properties>
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
 					</Section>
 					<Section Name="Station_3" TypeGUID="7f9b2ef4-f3fc-4448-975a7018fe511e0d">
 						<Description />
@@ -2227,7 +1248,7 @@
 								<Elem>0</Elem>
 							</DefaultValue>
 						</Channel>
-						<Channel Name="Station_3_Duration" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+						<Channel Name="Station_3_Duration" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="s" BitFields="7">
 							<Description />
 							<Properties />
 							<Errors />
@@ -2251,6 +1272,74 @@
 								<Elem>0</Elem>
 							</DefaultValue>
 						</Channel>
+						<Channel Name="Station_3_di_Drive_Fault" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_do_Drive_Contactor" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_do_Drive_Enable" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_do_Heater_Contactor" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_ci_Heater_Temperature" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="DegC" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_si_Position_Feedback" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="mm" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_co_Position_Setpoint" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="mm" BitFields="7">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="Station_3_co_Heater_Control" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="DegC" BitFields="7">
+							<Description />
+							<Properties>
+								<Property Name="DataSource">
+									<DataSourceNode Channel="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Output" />
+								</Property>
+							</Properties>
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
 					</Section>
 					<Channel Name="Global_Estop" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
 						<Description />
@@ -2265,6 +1354,96 @@
 					<Description />
 					<Properties />
 					<Errors />
+					<Channel Name="Station_1_Test_Enabled" TypeGUID="03D3B772-1485-13A6-56D8DB23F9C234C2" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description />
+						<Properties>
+							<Property Name="CalcCh:Type">
+								<U16>0</U16>
+							</Property>
+							<Property Name="CalcCh:Formula:FormulaString">
+								<StringArray>
+									<Elem>[Var0]</Elem>
+									<Elem>+</Elem>
+									<Elem>[Var1]</Elem>
+									<Elem>+</Elem>
+									<Elem>[Var2]</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="Var0">
+								<DependentNode Path="Aliases/Station_1_do_Heater_Contactor" />
+							</Property>
+							<Property Name="Var1">
+								<DependentNode Path="Aliases/Station_1_do_Drive_Enable" />
+							</Property>
+							<Property Name="Var2">
+								<DependentNode Path="Aliases/Station_1_do_Drive_Contactor" />
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Station_2_Test_Enabled" TypeGUID="03D3B772-1485-13A6-56D8DB23F9C234C2" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description />
+						<Properties>
+							<Property Name="CalcCh:Type">
+								<U16>0</U16>
+							</Property>
+							<Property Name="CalcCh:Formula:FormulaString">
+								<StringArray>
+									<Elem>[Var0]</Elem>
+									<Elem>+</Elem>
+									<Elem>[Var1]</Elem>
+									<Elem>+</Elem>
+									<Elem>[Var2]</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="Var0">
+								<DependentNode Path="Aliases/Station_2_do_Heater_Contactor" />
+							</Property>
+							<Property Name="Var1">
+								<DependentNode Path="Aliases/Station_2_do_Drive_Enable" />
+							</Property>
+							<Property Name="Var2">
+								<DependentNode Path="Aliases/Station_2_do_Drive_Contactor" />
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Station_3_Test_Enabled" TypeGUID="03D3B772-1485-13A6-56D8DB23F9C234C2" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description />
+						<Properties>
+							<Property Name="CalcCh:Type">
+								<U16>0</U16>
+							</Property>
+							<Property Name="CalcCh:Formula:FormulaString">
+								<StringArray>
+									<Elem>[Var0]</Elem>
+									<Elem>+</Elem>
+									<Elem>[Var1]</Elem>
+									<Elem>+</Elem>
+									<Elem>[Var2]</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="Var0">
+								<DependentNode Path="Aliases/Station_3_do_Heater_Contactor" />
+							</Property>
+							<Property Name="Var1">
+								<DependentNode Path="Aliases/Station_3_do_Drive_Enable" />
+							</Property>
+							<Property Name="Var2">
+								<DependentNode Path="Aliases/Station_3_do_Drive_Contactor" />
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
 				</Section>
 				<Section Name="Stimulus" TypeGUID="03D3B7FF-1485-13A6-56B2328F9511AC8B">
 					<Description />
@@ -2299,6 +1478,141 @@
 						<Description />
 						<Properties />
 						<Errors />
+						<Section Name="Station_3_Static_MonitorStopped" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="State">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_3_Disable_Alarms" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_3_Test_Enabled" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>1000</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>3</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_3_Static_MonitorStarted" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_3_Enable_Alarms" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_3_Test_Enabled" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>-0.5</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>3</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_3_Static_Abort" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>10</U32>
+								</Property>
+								<Property Name="State">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_3_SoftStop" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_3_Abort" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>3</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
 						<Section Name="Station_3_Over_Temp" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
 							<Description />
 							<Properties>
@@ -2309,7 +1623,7 @@
 									<U32>0</U32>
 								</Property>
 								<Property Name="State">
-									<U32>1</U32>
+									<U32>0</U32>
 								</Property>
 								<Property Name="Mode">
 									<U32>0</U32>
@@ -2330,7 +1644,7 @@
 									<U32>0</U32>
 								</Property>
 								<Property Name="Low Limit">
-									<Double>-40</Double>
+									<Double>-400</Double>
 								</Property>
 								<Property Name="Auto Reset Alarm">
 									<Boolean>false</Boolean>
@@ -2339,7 +1653,7 @@
 									<Boolean>false</Boolean>
 								</Property>
 								<Property Name="Group Number">
-									<U32>2</U32>
+									<U32>3</U32>
 								</Property>
 							</Properties>
 							<Errors />
@@ -2359,7 +1673,7 @@
 									<U32>0</U32>
 								</Property>
 								<Property Name="State">
-									<U32>1</U32>
+									<U32>0</U32>
 								</Property>
 								<Property Name="Mode">
 									<U32>0</U32>
@@ -2389,28 +1703,28 @@
 									<Boolean>false</Boolean>
 								</Property>
 								<Property Name="Group Number">
-									<U32>0</U32>
+									<U32>1</U32>
 								</Property>
 							</Properties>
 							<Errors />
 						</Section>
-						<Section Name="Station_1_Abort" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+						<Section Name="Station_1_Static_Abort" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
 							<Description />
 							<Properties>
 								<Property Name="Delay">
 									<Double>0</Double>
 								</Property>
 								<Property Name="Priority">
-									<U32>0</U32>
+									<U32>10</U32>
 								</Property>
 								<Property Name="State">
-									<U32>1</U32>
+									<U32>0</U32>
 								</Property>
 								<Property Name="Mode">
 									<U32>0</U32>
 								</Property>
 								<Property Name="Procedure Path">
-									<DependentNode Path="Targets/Controller/Procedures/Station_1_Abort" />
+									<DependentNode Path="Targets/Controller/Procedures/Station_1_SoftStop" />
 								</Property>
 								<Property Name="Channel Path">
 									<DependentNode Path="Aliases/Station_1_Abort" />
@@ -2433,6 +1747,99 @@
 								<Property Name="Require Alarm Acknowledgement">
 									<Boolean>false</Boolean>
 								</Property>
+								<Property Name="Group Number">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_1_Static_MonitorStarted" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_1_Enable_Alarms" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_1_Test_Enabled" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>-0.5</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_1_Static_MonitorStopped" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="State">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_1_Disable_Alarms" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_1_Test_Enabled" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>1000</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>1</U32>
+								</Property>
 							</Properties>
 							<Errors />
 						</Section>
@@ -2451,7 +1858,7 @@
 									<U32>0</U32>
 								</Property>
 								<Property Name="State">
-									<U32>1</U32>
+									<U32>0</U32>
 								</Property>
 								<Property Name="Mode">
 									<U32>0</U32>
@@ -2472,7 +1879,7 @@
 									<U32>0</U32>
 								</Property>
 								<Property Name="Low Limit">
-									<Double>-40</Double>
+									<Double>-400</Double>
 								</Property>
 								<Property Name="Auto Reset Alarm">
 									<Boolean>false</Boolean>
@@ -2481,7 +1888,142 @@
 									<Boolean>false</Boolean>
 								</Property>
 								<Property Name="Group Number">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_2_Static_Abort" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>10</U32>
+								</Property>
+								<Property Name="State">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_2_SoftStop" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_2_Abort" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_2_Static_MonitorStarted" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="State">
 									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_2_Enable_Alarms" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_2_Test_Enabled" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>-0.5</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_2_Static_MonitorStopped" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="State">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Station_2_Disable_Alarms" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Station_2_Test_Enabled" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>1000</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>2</U32>
 								</Property>
 							</Properties>
 							<Errors />
@@ -2491,16 +2033,371 @@
 						<Description />
 						<Properties />
 						<Errors />
+						<Section Name="Global_Estop" TypeGUID="03D3B791-1485-13A6-56D2B019287A4256">
+							<Description />
+							<Properties>
+								<Property Name="Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="State">
+									<U32>1</U32>
+								</Property>
+								<Property Name="Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Procedure Path">
+									<DependentNode Path="Targets/Controller/Procedures/Global_SoftStop" />
+								</Property>
+								<Property Name="Channel Path">
+									<DependentNode Path="Aliases/Global_Estop" />
+								</Property>
+								<Property Name="High Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="High Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Low Limit Mode">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Low Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Auto Reset Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Require Alarm Acknowledgement">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Group Number">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
 					</Section>
 				</Section>
 				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22">
 					<Description />
 					<Properties />
 					<Errors />
+					<Section Name="Global_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Set Aborts" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>1</Elem>
+										<Elem>1</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_1_Abort" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_2_Abort" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_3_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_1 Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Manual Output" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_1_do_Drive_Enable" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_2 Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Manual Output" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_2_do_Drive_Enable" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Station_3 Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Manual Output" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_3_do_Drive_Enable" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Settle" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>2</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Aborts" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_1_Abort" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_2_Abort" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_3_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Relays" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_1_do_Drive_Contactor" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_1_do_Heater_Contactor" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_2_do_Drive_Contactor" />
+								</Property>
+								<Property Name="Variable 3">
+									<DependentNode Path="Aliases/Station_2_do_Heater_Contactor" />
+								</Property>
+								<Property Name="Variable 4">
+									<DependentNode Path="Aliases/Station_3_do_Drive_Contactor" />
+								</Property>
+								<Property Name="Variable 5">
+									<DependentNode Path="Aliases/Station_3_do_Heater_Contactor" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Setpoints" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_1_Position_Setpoint" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_1_Temp_Setpoint" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_2_Position_Setpoint" />
+								</Property>
+								<Property Name="Variable 3">
+									<DependentNode Path="Aliases/Station_2_Temp_Setpoint" />
+								</Property>
+								<Property Name="Variable 4">
+									<DependentNode Path="Aliases/Station_3_Position_Setpoint" />
+								</Property>
+								<Property Name="Variable 5">
+									<DependentNode Path="Aliases/Station_3_Temp_Setpoint" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Dwell" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable PID Controls" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_1_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Manual Control" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Global Stop" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value 1">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Value 2">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<U16>0</U16>
+								</Property>
+								<Property Name="Command.Value 1 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Value 2 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Global_Estop" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>4</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
 					<Section Name="Station_1_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
 						<Description />
 						<Properties />
 						<Errors />
+						<Section Name="Set Abort" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value 1">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Value 2">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<U16>0</U16>
+								</Property>
+								<Property Name="Command.Value 1 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Value 2 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Station_1_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
 						<Section Name="Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
 							<Description />
 							<Properties>
@@ -2531,6 +2428,30 @@
 								</Property>
 								<Property Name="Command.Mode">
 									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Abort" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value 1">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Value 2">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<U16>0</U16>
+								</Property>
+								<Property Name="Command.Value 1 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Value 2 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Station_1_Abort" />
 								</Property>
 							</Properties>
 							<Errors />
@@ -2597,7 +2518,7 @@
 							</Properties>
 							<Errors />
 						</Section>
-						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
 							<Description />
 							<Properties>
 								<Property Name="Command.Priority">
@@ -2630,98 +2551,103 @@
 							</Properties>
 							<Errors />
 						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
 					</Section>
 					<Section Name="Station_2_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
 						<Description />
 						<Properties />
 						<Errors />
-						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+						<Section Name="Set Abort" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
 							<Description />
 							<Properties>
-								<Property Name="Alarm">
-									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Over_Temp" />
-								</Property>
-								<Property Name="Command.Priority">
-									<U32>0</U32>
-								</Property>
-								<Property Name="Command.Default State">
-									<I32>0</I32>
-								</Property>
-								<Property Name="Command.Delay">
-									<Double>0</Double>
-								</Property>
-								<Property Name="Command.Upper Limit">
+								<Property Name="Command.Value 1">
 									<Double>1</Double>
 								</Property>
-								<Property Name="Command.Lower Limit">
+								<Property Name="Command.Value 2">
 									<Double>0</Double>
 								</Property>
 								<Property Name="Command.Function">
-									<I32>4</I32>
+									<U16>0</U16>
 								</Property>
-								<Property Name="Command.UL Const">
+								<Property Name="Command.Value 1 Const">
 									<Boolean>true</Boolean>
 								</Property>
-								<Property Name="Command.LL Const">
+								<Property Name="Command.Value 2 Const">
 									<Boolean>true</Boolean>
 								</Property>
-								<Property Name="Command.Trip Alarm">
-									<Boolean>false</Boolean>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Station_2_Abort" />
 								</Property>
 							</Properties>
 							<Errors />
 						</Section>
-					</Section>
-					<Section Name="Station_3_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
-						<Description />
-						<Properties />
-						<Errors />
-						<Section Name="Alarm Command" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+						<Section Name="Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
 							<Description />
 							<Properties>
-								<Property Name="Alarm">
-									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Over_Temp" />
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
 								</Property>
-								<Property Name="Command.Priority">
-									<U32>0</U32>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Manual Control" />
 								</Property>
-								<Property Name="Command.Default State">
-									<I32>0</I32>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Manual Output" />
 								</Property>
-								<Property Name="Command.Delay">
-									<Double>0</Double>
-								</Property>
-								<Property Name="Command.Upper Limit">
-									<Double>1</Double>
-								</Property>
-								<Property Name="Command.Lower Limit">
-									<Double>0</Double>
-								</Property>
-								<Property Name="Command.Function">
-									<I32>4</I32>
-								</Property>
-								<Property Name="Command.UL Const">
-									<Boolean>true</Boolean>
-								</Property>
-								<Property Name="Command.LL Const">
-									<Boolean>true</Boolean>
-								</Property>
-								<Property Name="Command.Trip Alarm">
-									<Boolean>false</Boolean>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_2_do_Drive_Enable" />
 								</Property>
 							</Properties>
 							<Errors />
 						</Section>
-					</Section>
-					<Section Name="Station_1_Abort" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
-						<Description />
-						<Properties />
-						<Errors />
-						<Section Name="Call Procedure" TypeGUID="78c1304c-b691-4751-853c-67994ac9a904">
+						<Section Name="Settle" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
 							<Description />
 							<Properties>
-								<Property Name="Procedure">
-									<DependentNode Path="Targets/Controller/Procedures/Station_1_SoftStop" />
+								<Property Name="Command.Value">
+									<Double>2</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
 								</Property>
 							</Properties>
 							<Errors />
@@ -2745,9 +2671,1466 @@
 									<Boolean>true</Boolean>
 								</Property>
 								<Property Name="Variable">
-									<DependentNode Path="Aliases/Station_1_Abort" />
+									<DependentNode Path="Aliases/Station_2_Abort" />
 								</Property>
 							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Relays" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_2_do_Drive_Contactor" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_2_do_Heater_Contactor" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Setpoints" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_2_Position_Setpoint" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_2_Temp_Setpoint" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Dwell" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable PID Controls" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_2_Temp_Controller/Channels/Manual Control" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_3_SoftStop" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Set Abort" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value 1">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Value 2">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<U16>0</U16>
+								</Property>
+								<Property Name="Command.Value 1 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Value 2 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Station_3_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Control" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>1</Elem>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Manual Control" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Manual Output" />
+								</Property>
+								<Property Name="Variable 2">
+									<DependentNode Path="Aliases/Station_3_do_Drive_Enable" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Settle" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>2</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Abort" TypeGUID="e41ddd95-eff3-4578-b5b7-4ad8fcaf6b9a">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value 1">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Value 2">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<U16>0</U16>
+								</Property>
+								<Property Name="Command.Value 1 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Value 2 Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Variable">
+									<DependentNode Path="Aliases/Station_3_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Relays" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_3_do_Drive_Contactor" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_3_do_Heater_Contactor" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset Setpoints" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Aliases/Station_3_Position_Setpoint" />
+								</Property>
+								<Property Name="Variable 1">
+									<DependentNode Path="Aliases/Station_3_Temp_Setpoint" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Dwell" TypeGUID="6dde8411-8c68-408b-8558-d18c0909c789">
+							<Description />
+							<Properties>
+								<Property Name="Command.Value">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Mode">
+									<U32>0</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable PID Controls" TypeGUID="9befd21d-52c4-436d-80e3-13ccac078e82">
+							<Description />
+							<Properties>
+								<Property Name="Command.Values">
+									<DoubleArray>
+										<Elem>0</Elem>
+									</DoubleArray>
+								</Property>
+								<Property Name="Variable 0">
+									<DependentNode Path="Targets/Controller/Custom Devices/Control Addon/Station_3_Temp_Controller/Channels/Manual Control" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_1_Enable_Alarms" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Enable Abort" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_1/Station_1_Static_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable Over_Temp" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_1/Station_1_Over_Temp" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable MonitorStopped" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1000</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_1/Station_1_Static_MonitorStopped" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_2_Enable_Alarms" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Enable Abort" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>10</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Static_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable Over_Temp" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Over_Temp" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable MonitorStopped" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1000</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Static_MonitorStopped" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_3_Enable_Alarms" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Enable Abort" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>10</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Static_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable Over_Temp" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Over_Temp" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable MonitorStopped" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1000</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Static_MonitorStopped" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_1_Disable_Alarms" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Disable Abort" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_1/Station_1_Static_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Over_Temp" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_1/Station_1_Over_Temp" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable MonitorStarted" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-0.5</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_1/Station_1_Static_MonitorStarted" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_2_Disable_Alarms" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Disable Abort" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>10</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Static_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Over_Temp" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Over_Temp" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable MonitorStarted" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-0.5</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_2/Station_2_Static_MonitorStarted" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Station_3_Disable_Alarms" TypeGUID="03D3B7C0-1485-13A6-5652B22D1EEB1FA1">
+						<Description />
+						<Properties />
+						<Errors />
+						<Section Name="Disable Abort" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>10</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Static_Abort" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable Over_Temp" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>400</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-400</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Over_Temp" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Enable MonitorStarted" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>20</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0.5</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>-0.5</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>2</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="Alarm">
+									<DependentNode Path="Targets/Controller/Alarms/Station_3/Station_3_Static_MonitorStarted" />
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Reset" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>8</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Disable" TypeGUID="e203af68-4b16-4bae-a211-7502c28a5642">
+							<Description />
+							<Properties>
+								<Property Name="Command.Priority">
+									<U32>0</U32>
+								</Property>
+								<Property Name="Command.Default State">
+									<I32>0</I32>
+								</Property>
+								<Property Name="Command.Delay">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Upper Limit">
+									<Double>1</Double>
+								</Property>
+								<Property Name="Command.Lower Limit">
+									<Double>0</Double>
+								</Property>
+								<Property Name="Command.Function">
+									<I32>3</I32>
+								</Property>
+								<Property Name="Command.UL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.LL Const">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="Command.Trip Alarm">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Exit Subroutine" TypeGUID="a48694e4-1904-4215-b4b8-a6c6f5e4d7ac">
+							<Description />
+							<Properties />
 							<Errors />
 						</Section>
 					</Section>
@@ -3602,7 +4985,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_1_ci_Heater_Temperature" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_ci_Heater_Temperature" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3611,7 +4994,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_1_co_Heater_Control" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_co_Heater_Control" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3629,7 +5012,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Input/port1/Station_1_di_Drive_Fault" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_di_Drive_Fault" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3638,7 +5021,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_1_do_Drive_Contactor" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_do_Drive_Contactor" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3647,7 +5030,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_1_do_Drive_Enable" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_do_Drive_Enable" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3656,7 +5039,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_1_do_Heater_Contactor" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_do_Heater_Contactor" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3665,7 +5048,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_1_si_Position_Feedback" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_1/Station_1_si_Position_Feedback" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3782,7 +5165,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_2_ci_Heater_Temperature" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_ci_Heater_Temperature" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3791,7 +5174,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_2_si_Position_Feedback" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_si_Position_Feedback" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3800,7 +5183,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_3_ci_Heater_Temperature" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_ci_Heater_Temperature" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3809,7 +5192,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev2/Analog Input/Station_3_si_Position_Feedback" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_si_Position_Feedback" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3818,7 +5201,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_2_co_Heater_Control" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_co_Heater_Control" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3836,7 +5219,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev3/Analog Output/Station_3_co_Heater_Control" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_co_Heater_Control" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3881,7 +5264,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Input/port1/Station_2_di_Drive_Fault" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_di_Drive_Fault" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3890,7 +5273,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_2_do_Drive_Contactor" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_do_Drive_Contactor" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3899,7 +5282,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_2_do_Drive_Enable" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_do_Drive_Enable" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3908,7 +5291,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_2_do_Heater_Contactor" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_2/Station_2_do_Heater_Contactor" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3917,7 +5300,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Input/port1/Station_3_di_Drive_Fault" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_di_Drive_Fault" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3926,7 +5309,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_3_do_Drive_Contactor" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_do_Drive_Contactor" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3935,7 +5318,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port6/Station_3_do_Drive_Enable" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_do_Drive_Enable" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3944,7 +5327,43 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Dev1/Digital Output/port5/Station_3_do_Heater_Contactor" />
+						<DependentNode Path="Targets/Controller/User Channels/Station_3/Station_3_do_Heater_Contactor" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Global_Estop" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/User Channels/Global_Estop" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_1_Test_Enabled" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Calculated Channels/Station_1_Test_Enabled" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_2_Test_Enabled" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Calculated Channels/Station_2_Test_Enabled" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Station_3_Test_Enabled" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Calculated Channels/Station_3_Test_Enabled" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -3954,98 +5373,6 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Temperature" TypeGUID="efc327ee-9f55-5043-0433-babd68e52172">
-				<Description />
-				<Properties>
-					<Property Name="Scale Type">
-						<U32>0</U32>
-					</Property>
-					<Property Name="Scale Unit">
-						<String>Deg C</String>
-					</Property>
-					<Property Name="Polynomial Coeff">
-						<DoubleArray>
-							<Elem>0</Elem>
-							<Elem>30</Elem>
-						</DoubleArray>
-					</Property>
-					<Property Name="Reverse Polynomial Coeff">
-						<DoubleArray>
-							<Elem>-1.8432849998726612E-17</Elem>
-							<Elem>0.033333333333333375</Elem>
-						</DoubleArray>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Position_Setpoint" TypeGUID="efc327ee-9f55-5043-0433-babd68e52172">
-				<Description />
-				<Properties>
-					<Property Name="Scale Type">
-						<U32>0</U32>
-					</Property>
-					<Property Name="Scale Unit">
-						<String>mm</String>
-					</Property>
-					<Property Name="Polynomial Coeff">
-						<DoubleArray>
-							<Elem>0</Elem>
-							<Elem>5</Elem>
-						</DoubleArray>
-					</Property>
-					<Property Name="Reverse Polynomial Coeff">
-						<DoubleArray>
-							<Elem>-4.0644269800967382E-15</Elem>
-							<Elem>0.19999999999999979</Elem>
-						</DoubleArray>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="mA to Perc" TypeGUID="2e37de6d-be56-3367-4bd8-c77a6ea39ffa">
-				<Description />
-				<Properties>
-					<Property Name="Scale Type">
-						<U32>2</U32>
-					</Property>
-					<Property Name="Scale Unit">
-						<String>%</String>
-					</Property>
-					<Property Name="Lookup Values">
-						<DoubleArray>
-							<Elem>0.004</Elem>
-							<Elem>0.02</Elem>
-							<Elem>0</Elem>
-							<Elem>100</Elem>
-						</DoubleArray>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Position_Feedback" TypeGUID="efc327ee-9f55-5043-0433-babd68e52172">
-				<Description />
-				<Properties>
-					<Property Name="Scale Type">
-						<U32>0</U32>
-					</Property>
-					<Property Name="Scale Unit">
-						<String>mm</String>
-					</Property>
-					<Property Name="Polynomial Coeff">
-						<DoubleArray>
-							<Elem>0</Elem>
-							<Elem>-5</Elem>
-						</DoubleArray>
-					</Property>
-					<Property Name="Reverse Polynomial Coeff">
-						<DoubleArray>
-							<Elem>-1.8448266933615472E-17</Elem>
-							<Elem>-0.20000000000000021</Elem>
-						</DoubleArray>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
 		</Section>
 		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663">
 			<Description />

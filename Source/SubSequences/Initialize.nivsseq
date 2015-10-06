@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
-	<Version Major="1" Minor="0" Fix="0" Build="10" />
+	<Version Major="1" Minor="0" Fix="0" Build="12" />
 	<References>
 		<Reference>
 			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\Wait.nivsseq</Path>
@@ -80,6 +80,14 @@
 				<EvaluationMethod>ByReference</EvaluationMethod>
 				<DefaultAssignment Path="Aliases/Station_1_Step_Info" />
 			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>Duration</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/Station_1_Duration" />
+			</ParameterDeclaration>
 		</Parameters>
 		<LocalVariables />
 		<ChannelReferences />
@@ -92,6 +100,9 @@
 				</Statement>
 				<Statement xsi:type="Expression">
 					<ExpressionString>Iteration_Info = 0</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Duration = 0</ExpressionString>
 				</Statement>
 			</Body>
 		</Setup>
@@ -148,7 +159,7 @@
 		<CleanUp>
 			<Body>
 				<Statement xsi:type="Expression">
-					<ExpressionString>Pass = (di_Drive_Fault == 0 &amp;&amp; Abort == 0)</ExpressionString>
+					<ExpressionString>Pass = (Abort == 0)</ExpressionString>
 				</Statement>
 			</Body>
 		</CleanUp>
