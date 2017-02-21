@@ -114,11 +114,11 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Bushing Wear Test System.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E">
+			<Section Name="MultiheadTester.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<DependentFile Type="To Common Doc Dir" Path="Projects\Bushing Wear Test System\Bushing Wear Test System.nivscf">
+						<DependentFile Type="Relative" Path="MultiheadTester.nivscf">
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
@@ -213,33 +213,6 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Control Addon Engine VxWorks.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Custom Devices\Control Addon\c\Control Addon Engine VxWorks.llb</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Rate Limiter.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System\Models\Rate Limiter.lvmodel</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Bushing Wear Test System.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Projects\Bushing Wear Test System\Bushing Wear Test System.nivscf</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
 			<Section Name="MultiheadTester.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
@@ -263,6 +236,24 @@
 				<Properties>
 					<Property Name="Path">
 						<String>C:\addons\Multihead Tester GUI\Source\VeriStandProject\Models\Rate Limiter.lvmodel</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="MultiheadTester.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\addons\Multihead Tester GUI\Source\VeriStandProject\MultiheadTester.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Control Addon Engine Windows.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Custom Devices\Control Addon\Windows\Control Addon Engine Windows.llb</String>
 					</Property>
 				</Properties>
 				<Errors />
