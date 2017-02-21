@@ -249,11 +249,11 @@
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Control Addon Engine Windows.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Control Addon Engine Linux64.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Custom Devices\Control Addon\Windows\Control Addon Engine Windows.llb</String>
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Custom Devices\Control Addon\Linux_x64\Control Addon Engine Linux64.llb</String>
 					</Property>
 				</Properties>
 				<Errors />
